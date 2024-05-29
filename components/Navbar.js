@@ -69,7 +69,7 @@ const Navbar = () => {
       <ul className='hidden lg:flex p-2 gap-4 '>
         {navigation.map((item) => {
           return (
-            <li key={item.id} className='p-2 hover:bg-pink-400 rounded-lg'>
+            <li key={item.id} className='p-2 hover:bg-fuchsia-600 rounded-lg'>
               <Link  href={item.href}>
                 {item.SK}{' '}
               </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
           {navigation.map((item) => (
             <li
               key={item.id}
-              className='p-2 cursor-pointer text-xl w-full rounded-lg hover:bg-pink-400'
+              className='p-2 cursor-pointer text-xl w-full rounded-lg hover:bg-fuchsia-600'
             >
               <Link onClick={() => setNav(!nav)} href={item.href}>
                 {item.SK}
