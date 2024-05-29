@@ -53,9 +53,9 @@ const Navbar = () => {
     },
     {
       id: useId(),
-      SK: 'Kde nás nájdete',
-      EN: 'Where to find us',
-      href: '/whereToFindUs'
+      SK: 'Kontakt',
+      EN: 'Contact',
+      href: '/contact'
     },
   ];
 
