@@ -4,12 +4,11 @@ const Contact = () => {
     return (
       <div className=' mx-auto  h-full min-h-[700px] max-w-7xl w-full space-y-8 p-6'>
         <h2 className='text-4xl font-bold'>Kontakt</h2>
-        <div className='flex flex-col md:flex-row gap-16 p-6 lg:p-0'>
+        <div className='flex flex-col md:flex-row gap-16 p-6 lg:p-0 '>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.620582012551!2d17.04990547702154!3d48.19466144718453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8d5fd4469fbf%3A0xa57bfaef1346bc5b!2zVGFuZcSNbsOhIMWha29sYSBEYW5jZXJz!5e0!3m2!1sen!2ssk!4v1717015128744!5m2!1sen!2ssk'
-            width='600'
-            height='450'
             style={{ border: 0 }}
+            className="w-1/2 min-h-[400px]"
             allowFullScreen='true'
             loading='lazy'
             referrerPolicy='no-referrer-when-downgrade'
