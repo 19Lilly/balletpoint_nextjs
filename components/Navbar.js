@@ -4,6 +4,7 @@ import React, { useId, useState } from 'react';
 import Link from 'next/link';
 import { MdMenu } from 'react-icons/md';
 import { LiaTimesSolid } from 'react-icons/lia';
+import Logo from './Logo'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,10 +62,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between items-center p-6  gap-4  max-w-7xl mx-auto w-full'>
+    <div className='flex justify-between items-center p-4 md:p-2  gap-4  max-w-7xl mx-auto w-full relative'>
       <Link href='/' className="flex flex-col items-start">
-       <p>Ballet Point</p>
-       <p className="self-center">Lamač</p>
+          <Logo />
       </Link>
       <ul className='hidden lg:flex p-2 gap-4 '>
         {navigation.map((item) => {
