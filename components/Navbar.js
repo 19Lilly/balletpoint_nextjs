@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MdMenu } from 'react-icons/md';
 import { LiaTimesSolid } from 'react-icons/lia';
 import Logo from './Logo';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -49,6 +50,8 @@ const Navbar = () => {
     },
   ];
 
+  const pathName = usePathname();
+
   return (
     <nav className='bg-zinc-950 text-white text-xl'>
       <div className='flex justify-between items-center p-4 md:p-2  gap-4  max-w-7xl mx-auto w-full relative '>
@@ -59,7 +62,16 @@ const Navbar = () => {
           {navigation.map(item => {
             return (
               <li key={item.id} className='p-2 hover:bg-fuchsia-600 rounded-lg'>
-                <Link href={item.href}>{item.SK} </Link>
+                <Link
+                  href={item.href}
+                  className={
+                    pathName === item.href
+                      ? 'underline underline-offset-4 text-fuchsia-600'
+                      : null
+                  }
+                >
+                  {item.SK}
+                </Link>
               </li>
             );
           })}

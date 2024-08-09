@@ -54,7 +54,7 @@ const Payments = () => {
         {platby.map(platba => {
           return (
             <li className='flex gap-4 border-b-2 p-2 w-[min(22rem,98%)]'>
-              <h3 className='font-bold'>{platba.name}</h3>
+              <h3 className='font-bold text-xl'>{platba.name}</h3>
               <div>
                 <p>{platba.months}</p>
                 <p>
