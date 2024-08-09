@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Info = () => {
+const Payments = () => {
   const platby = [
     {
       name: '1.platba',
@@ -25,8 +25,7 @@ const Info = () => {
   ];
   return (
     <div className='max-w-7xl mx-auto space-y-6'>
-      <h1 className='text-5xl text-fuchsia-600 font-bold'>Informácie</h1>
-      <h2 className='text-2xl font-bold'>Platby</h2>
+      <h1 className='text-5xl text-fuchsia-600 font-bold'>Platby</h1>
 
       <p>
         <span className='font-bold'>1 hodina/týždeň: </span>
@@ -70,4 +69,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default Payments;

@@ -4,20 +4,16 @@ import Link from 'next/link';
 const TrainingLayout = ({ children }) => {
     const navData = [
       {
-        name: 'Zápis 2024/2025',
+        name: 'Skupiny',
         url: '/trainings',
-      },
-      {
-        name: 'Info',
-        url: '/trainings/info',
       },
       {
         name: 'Rozvrh hodín',
         url: '/trainings/timeSchedule',
       },
       {
-        name: 'Skupiny',
-        url: '/trainings/groups',
+        name: 'Platby',
+        url: '/trainings/payments',
       },
     ];
 

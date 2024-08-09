@@ -7,7 +7,6 @@ const QuickLink = ({ title, href }) => {
       href={href}
       className='text-white text-xl p-6 flex justify-center gap-2 rounded-lg bg-black/80 w-full  items-center hover:scale-105 hover:text-fuchsia-600'
     >
-      {/*nahlad na plagat/pozvanku/foto z treningu */}
       {title}
       <FaArrowRight />
     </Link>

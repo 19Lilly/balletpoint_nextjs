@@ -6,12 +6,12 @@ const QuickLinksSidebar = () => {
     {
       id: useId(),
       title: 'Zápis 2024/2025',
-      href: '/trainings',
+      href: '/registration',
     },
     {
       id: useId(),
       title: 'Info',
-      href: '/trainings/info',
+      href: '/trainings',
     },
     {
       id: useId(),
