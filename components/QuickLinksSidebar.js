@@ -10,8 +10,8 @@ const QuickLinksSidebar = () => {
     },
     {
       id: useId(),
-      title: 'Tréningy',
-      href: '/trainings/info',
+      title: 'Rozvrh hodín',
+      href: '/trainings/timeSchedule',
     },
     {
       id: useId(),
