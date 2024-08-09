@@ -13,7 +13,7 @@ const TeacherResume = () => {
         src={ProfilePicture}
         className='size-52 absolute top-4 right-4 my-2'
       />
-      <ul className='mt-6 flex flex-col gap-4'>
+      <ul className='my-6 flex flex-col gap-4'>
         <li>Narodila sa 27.6.1982 v Bratislave</li>
         <li>
           Ako sedem ročná začala navštevovať Základnú umeleckú školu, odbor
@@ -31,7 +31,7 @@ const TeacherResume = () => {
       </ul>
 
       <Image src={DancingAlone} className='mx-auto flex size-1/3' />
-      <ul className='mt-6 flex flex-col gap-4'>
+      <ul className='my-6 flex flex-col gap-4'>
         <li>
           V roku 2001 ukončila štúdium s vyznamenaním na Tanečnom konzervatóriu
           Evy Jaczovej a bola prijatá do zboru baletu Slovenského národného

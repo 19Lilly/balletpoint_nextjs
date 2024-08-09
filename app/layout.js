@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='min-h-[100dvh] grid grid-rows-[auto_1fr_auto]'>
+      <body className='min-h-[100dvh] grid grid-rows-[auto_1fr_auto] text-xl'>
         <Navbar />
         {children}
         <Footer />
@@ -19,4 +19,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
 

@@ -44,7 +44,7 @@ const Payments = () => {
           <span className='font-bold'>IBAN: </span>
           SK5011000000008016153518
         </p>
-        <p className='text-pretty'>
+        <p className='text-pretty w-[min(70ch,98%)] mt-4'>
           Do poznámky k platbe prosím uviesť meno dieťaťa, skupinu, za ktoré
           mesiace je daná platba napr. Janko Mrkvička, C1, september + október
         </p>
@@ -53,7 +53,7 @@ const Payments = () => {
       <ul>
         {platby.map(platba => {
           return (
-            <li className='flex gap-4 border-b-2 p-2 w-[min(22rem,98%)]'>
+            <li className='flex gap-4 border-b-2 p-2 w-[min(25rem,98%)]'>
               <h3 className='font-bold text-xl'>{platba.name}</h3>
               <div>
                 <p>{platba.months}</p>
