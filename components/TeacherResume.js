@@ -3,7 +3,9 @@ import React from 'react';
 const TeacherResume = () => {
   return (
     <div className='mx-auto  h-full min-h-[700px] max-w-7xl bg-white text-gray-800 p-10 text-2xl'>
-      <h1 className='text-fuchsia-600 font-bold text-5xl'>Petra Babošová</h1>
+      <h1 className='text-fuchsia-600 font-bold text-6xl m-0'>
+        Petra Babošová
+      </h1>
       <ul className='mt-6 flex flex-col list-disc gap-4'>
         <li>Narodila sa 27.6.1982 v Bratislave</li>
         <li>

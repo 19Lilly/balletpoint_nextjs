@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className=' mx-auto max-w-7xl w-full h-full space-y-8 p-6'>
+    <div className=' mx-auto max-w-7xl w-full space-y-8 p-6'>
       <h2 className='text-4xl font-bold'>Kontakt</h2>
       <div className='flex flex-col md:flex-row gap-16 p-6 lg:p-0 '>
         <iframe
