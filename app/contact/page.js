@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div className='flex gap-4'>
             <h3 className='font-bold text-fuchsia-600'>Email:</h3>
-            <a href='mailto:'>info@balletpoint.sk</a>
+            <a href='mailto:info@balletpoin.sk'>info@balletpoint.sk</a>
           </div>
           <hr className='m-6 w-full' />
         </div>
