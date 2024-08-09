@@ -5,14 +5,11 @@ import DancingAlone from '/public/images/Resume/resume_images_01.jpg';
 
 const TeacherResume = () => {
   return (
-    <div className='mx-auto max-w-7xl bg-white text-zinc-800 p-10 text-2xl relative'>
-      <h1 className='text-fuchsia-600 font-bold text-6xl m-0 mb-10'>
+    <div className='mx-auto max-w-7xl bg-white text-zinc-800 p-6 text-2xl relative'>
+      <h1 className='text-fuchsia-600 font-bold text-6xl m-0 mb-10 mx-auto text-center flex md:mx-0 md:text-left'>
         Petra Babošová
       </h1>
-      <Image
-        src={ProfilePicture}
-        className='size-52 absolute top-4 right-4 my-2'
-      />
+      <Image src={ProfilePicture} className='size-52 flex mx-auto md:mx-0' />
       <ul className='my-6 flex flex-col gap-4'>
         <li>Narodila sa 27.6.1982 v Bratislave</li>
         <li>
