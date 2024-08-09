@@ -15,8 +15,8 @@ const QuickLinksSidebar = () => {
     },
     {
       id: useId(),
-      title: 'SND',
-      href: '',
+      title: 'Galéria',
+      href: '/gallery',
     },
   ];
 

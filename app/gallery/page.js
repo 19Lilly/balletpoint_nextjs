@@ -5,10 +5,10 @@ import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 
 const Gallery = () => {
-  const gallery = [
+  const galleryData = [
     {
       name: 'Naše hodiny',
-      src: '',
+      src: '/src/',
       numbers: [],
     },
     {
@@ -17,7 +17,7 @@ const Gallery = () => {
       numbers: [],
     },
     {
-      name: 'Letný tábor 2024',
+      name: 'Ballet point Letný tábor 2024',
       src: '',
       numbers: [],
     },
@@ -32,9 +32,23 @@ const Gallery = () => {
     src: `https://placedog.net/${number}00/${number}00?id=${number}`,
   }));
 
+  // return (
+  //   <div>
+  //     <ul>
+  //       {galleryData.map(gallery => {
+  //         return (
+  //           <Link>
+  //             <h2>{gallery.name}</h2>
+  //           </Link>
+  //         );
+  //       })}
+  //     </ul>
+  //   </div>
+  // );
+
   return (
     <div className='mx-auto max-w-7xl w-full flex justify-center carousel-container text-black '>
-      <Carousel images={images} style={{ height: 472, width: 800 }} />
+      <Carousel images={images} className='size-cover' />
     </div>
   );
 };
