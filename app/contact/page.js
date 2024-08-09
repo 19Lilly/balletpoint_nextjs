@@ -18,12 +18,12 @@ const Contact = () => {
           </div>
           <div className='flex gap-4'>
             <h3 className='font-bold text-fuchsia-600'>IČO:</h3>
-            <p>xxxxxxxx</p> {/*doplniť */}
+            <p>56307446</p>
           </div>
           <hr className='m-6 w-full' />
           <div className='flex gap-4'>
             <h3 className='font-bold text-fuchsia-600'>Mobil:</h3>
-            <a href='tel:+421'>+421 9xx xxx xxx</a>
+            <a href='tel:+421949757911'>+421 949 757 911</a>
           </div>
           <div className='flex gap-4'>
             <h3 className='font-bold text-fuchsia-600'>Email:</h3>
