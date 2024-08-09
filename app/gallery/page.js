@@ -11,7 +11,7 @@ const Gallery = () => {
 
   return (
     <div className='mx-auto max-w-7xl w-full flex justify-center carousel-container text-black '>
-      <Carousel images={images} style={{ height: 500, width: 800 }} />
+      <Carousel images={images} style={{ height: 472, width: 800 }} />
     </div>
   );
 };
