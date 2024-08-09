@@ -4,16 +4,10 @@ import Link from 'next/link';
 export default function AboutLayout({ children }) {
 
   return (
-    <div className='max-w-7xl mx-auto border w-full'>
-      <nav className='flex gap-2 items-center justify-center'>
-        <Link
-          href='/about'>
-          Balletpoint
-        </Link>
-        <Link
-          href='/about/teacher'>
-          Pedagóg
-        </Link>
+    <div className='max-w-7xl mx-auto w-full p-4 space-y-4'>
+      <nav className='flex gap-6 text-xl items-center p-4 border-b-2'>
+        <Link href='/about'>Balletpoint</Link>
+        <Link href='/about/teacher'>Pedagóg</Link>
       </nav>
       {children}
     </div>

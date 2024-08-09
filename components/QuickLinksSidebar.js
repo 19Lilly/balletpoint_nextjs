@@ -5,13 +5,13 @@ const QuickLinksSidebar = () => {
   const quicklinks = [
     {
       id: useId(),
-      title: 'Tréningy',
+      title: 'Zápis 2024/2025',
       href: '/trainings',
     },
     {
       id: useId(),
-      title: 'Zápis 2024/2025',
-      href: '/trainings/registration',
+      title: 'Tréningy',
+      href: '/trainings/info',
     },
     {
       id: useId(),

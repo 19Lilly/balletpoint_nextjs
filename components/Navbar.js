@@ -66,11 +66,11 @@ const Navbar = () => {
         </ul>
         <div
           onClick={() => setNav(!nav)}
-          className='lg:hidden ml-auto text-2xl relative'
+          className='lg:hidden ml-auto text-5xl relative'
         >
           {nav ? <LiaTimesSolid /> : <MdMenu />}
           {nav && (
-            <ul className='flex flex-col w-max p-2  items-start bg-zinc-600 absolute  -left-44 top-8 '>
+            <ul className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute  -left-44 top-8 '>
               {navigation.map(item => (
                 <li
                   key={item.id}
@@ -84,7 +84,8 @@ const Navbar = () => {
             </ul>
           )}
         </div>
-        <div className='text-xl'>SK</div> {/*dropdown menu pre vyber jazyka */}
+        <div className='text-4xl hidden'>SK</div>{' '}
+        {/*dropdown menu pre vyber jazyka */}
       </div>
     </nav>
   );
