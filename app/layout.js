@@ -4,13 +4,14 @@ import './globals.css';
 
 export const metadata = {
   title: 'Balletpoint landing page',
-  description: 'Presentation web of new ballet school in Bratislava, Slovakia. ',
+  description:
+    'Presentation web of new ballet school in Bratislava, Slovakia. ',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='min-h-[100dvh] grid grid-rows-[auto_1fr_auto] bg-zinc-800 text-white '>
+      <body className='min-h-[100dvh] grid grid-rows-[auto_1fr_auto]'>
         <Navbar />
         {children}
         <Footer />

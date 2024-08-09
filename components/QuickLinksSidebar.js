@@ -10,18 +10,18 @@ const QuickLinksSidebar = () => {
     },
     {
       id: useId(),
-      title: 'Koncoročné vystúpenie',
-      href: '/events',
+      title: 'Zápis 2024/2025',
+      href: '/trainings/registration',
     },
     {
       id: useId(),
-      title: 'Letný tábor',
-      href: '/comingUp',
+      title: 'SND',
+      href: '',
     },
   ];
 
   return (
-    <div className='flex flex-col justify-between w-fit gap-6 self-end  md:mt-auto mt-[55%] p-2 '>
+    <div className='flex flex-col justify-between w-fit gap-6 absolute bottom-4 right-4'>
       {quicklinks.map(({ title, href, id }) => {
         return <QuickLink title={title} href={href} key={id} />;
       })}
