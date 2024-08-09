@@ -50,7 +50,6 @@ const Navbar = () => {
     },
   ];
 
-  const pathName = usePathname();
 
   return (
     <nav className='bg-zinc-950 text-white text-xl'>
@@ -60,12 +59,13 @@ const Navbar = () => {
         </Link>
         <ul className='hidden lg:flex p-2 gap-4 '>
           {navigation.map(item => {
+            const pathName = usePathname();
             return (
               <li key={item.id} className='p-2 hover:bg-fuchsia-600 rounded-lg'>
                 <Link
                   href={item.href}
                   className={
-                    pathName === item.href
+                    pathName.substring(0, 7) === item.href.substring(0, 7)
                       ? 'underline underline-offset-4 text-fuchsia-600'
                       : null
                   }
