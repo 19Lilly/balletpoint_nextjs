@@ -1,10 +1,9 @@
-'use client'
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 export default function AboutLayout({ children }) {
-
   const navData = [
     {
       name: 'Ballet point',
@@ -25,9 +24,7 @@ export default function AboutLayout({ children }) {
             <Link
               href={nav.url}
               className={`bg-zinc-700 text-white px-4 py-2 rounded-xl hover:bg-zinc-600 ${
-                pathName === nav.url
-                  ? 'underline underline-offset-4'
-                  : null
+                pathName === nav.url ? 'underline underline-offset-4' : null
               }`}
             >
               {nav.name}
