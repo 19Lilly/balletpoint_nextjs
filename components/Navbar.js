@@ -70,7 +70,7 @@ const Navbar = () => {
         >
           {nav ? <LiaTimesSolid /> : <MdMenu />}
           {nav && (
-            <ul className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute  -left-44 top-8 '>
+            <ul className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute z-30 -left-44 top-8 '>
               {navigation.map(item => (
                 <li
                   key={item.id}
