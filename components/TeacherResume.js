@@ -1,12 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
+import ProfilePicture from '/public/images/Resume/resume_images_00.jpg';
+import DancingAlone from '/public/images/Resume/resume_images_01.jpg';
 
 const TeacherResume = () => {
   return (
-    <div className='mx-auto  h-full min-h-[700px] max-w-7xl bg-white text-gray-800 p-10 text-2xl'>
+    <div className='mx-auto max-w-7xl bg-white text-zinc-800 p-10 text-2xl relative space-y-4'>
       <h1 className='text-fuchsia-600 font-bold text-6xl m-0'>
         Petra Babošová
       </h1>
-      <ul className='mt-6 flex flex-col list-disc gap-4'>
+      <Image src={ProfilePicture} className='size-52 absolute top-4 right-4' />
+      <ul className='mt-6 flex flex-col gap-4'>
         <li>Narodila sa 27.6.1982 v Bratislave</li>
         <li>
           Ako sedem ročná začala navštevovať Základnú umeleckú školu, odbor
@@ -21,6 +25,10 @@ const TeacherResume = () => {
           Tanec pre Európu. Taktiež účinkovala v predstaveniach Slovenského
           národného divadla ako Luskáčik, Don Quiotte alebo Labutie jazero.
         </li>
+      </ul>
+
+      <Image src={DancingAlone} className='mx-auto flex size-1/3' />
+      <ul className='mt-6 flex flex-col gap-4'>
         <li>
           V roku 2001 ukončila štúdium s vyznamenaním na Tanečnom konzervatóriu
           Evy Jaczovej a bola prijatá do zboru baletu Slovenského národného
