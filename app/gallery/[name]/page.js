@@ -57,7 +57,7 @@ const singleGallery = ({ params }) => {
         </Link>
       </h1>
       <div className='w-[min(70rem,98%)] h-[1000px] px-2'>
-        <Carousel images={imgs} />
+        <Carousel images={imgs} isMaximized={true} />
       </div>
     </div>
   );
