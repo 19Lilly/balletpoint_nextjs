@@ -67,7 +67,7 @@ const Navbar = () => {
                   href={item.href}
                   className={
                     pathName.substring(0, 7) === item.href.substring(0, 7)
-                      ? 'underline underline-offset-4 text-fuchsia-600'
+                      ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
                       : null
                   }
                 >
@@ -94,7 +94,7 @@ const Navbar = () => {
                     href={item.href}
                     className={
                       pathName.substring(0, 7) === item.href.substring(0, 7)
-                        ? 'underline underline-offset-4 text-fuchsia-600'
+                        ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
                         : null
                     }
                   >
