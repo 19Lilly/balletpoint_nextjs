@@ -42,6 +42,20 @@ const TimeSchedule = () => {
           Classic 3
         </div>
       </div>
+
+      <div className='flex flex-col'>
+        <p className='flex gap-4 py-4'>
+          <span className='font-bold'>Classic 1: </span> tanečná príprava
+        </p>
+        <p className='flex gap-4 py-4'>
+          <span className='font-bold'>Classic 2: </span> základy klasického
+          tanca
+        </p>
+        <p className='flex gap-4 py-4'>
+          <span className='font-bold'>Classic 3: </span> Contemporary class,
+          klasický tanec
+        </p>
+      </div>
     </div>
   );
 };
