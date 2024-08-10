@@ -3,6 +3,8 @@
 import React from 'react';
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
+import { TiArrowBackOutline } from 'react-icons/ti';
+import Link from 'next/link';
 
 const singleGallery = ({ params }) => {
   const galleryData = [
@@ -41,8 +43,19 @@ const singleGallery = ({ params }) => {
   }));
 
   return (
-    <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 items-center carousel-container text-black '>
-      <h1 className='text-5xl font-bold text-fuchsia-600 py-4'>{title}</h1>
+    <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 text-black relative '>
+      <h1 className=' flex justify-between'>
+        <span className='text-5xl font-bold text-fuchsia-600 py-4'>
+          {title}
+        </span>
+        <Link
+          href='/gallery'
+          className='hover:text-fuchsia-600 hover:scale-110 flex gap-2 items-center'
+        >
+          <TiArrowBackOutline />
+          Späť na zoznam
+        </Link>
+      </h1>
       <div className='w-70 h-[1000px] px-6'>
         <Carousel images={imgs} />
       </div>
