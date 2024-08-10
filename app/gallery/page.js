@@ -32,7 +32,7 @@ const Gallery = () => {
         {galleryData.map(gallery => {
           return (
             <Link href={`/gallery/${gallery.url}`}>
-              <li className='flex items-center gap-6 border-b-2 p-4 w-[min(30rem,98%)] hover:text-fuchsia-600'>
+              <li className='flex flex-col md:flex-row md:items-center gap-6 border-b-2 p-4 w-[min(30rem,98%)] hover:text-fuchsia-600'>
                 <RiFolderImageLine className='size-20' />
                 <h2 className='text-2xl'>{gallery.name}</h2>
               </li>
