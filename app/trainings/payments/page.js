@@ -42,11 +42,12 @@ const Payments = () => {
       <p>
         <p>
           <span className='font-bold'>IBAN: </span>
-          SK5011000000008016153518
+          SK23 0900 0000 0052 1937 5395
         </p>
         <p className='text-pretty w-[min(70ch,98%)] mt-4'>
-          Do poznámky k platbe prosím uviesť meno dieťaťa, skupinu, za ktoré
-          mesiace je daná platba napr. Janko Mrkvička, C1, september + október
+          Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu
+          a za ktoré mesiace je daná platba napr. Janko Mrkvička, C1, september
+          + október
         </p>
       </p>
 
