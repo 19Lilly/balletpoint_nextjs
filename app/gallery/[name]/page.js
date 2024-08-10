@@ -42,8 +42,8 @@ const singleGallery = ({ params }) => {
 
   return (
     <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 items-center carousel-container text-black '>
-      <h1>{title}</h1>
-      <div className='w-70 h-[600px] p-6'>
+      <h1 className='text-5xl font-bold text-fuchsia-600 py-4'>{title}</h1>
+      <div className='w-70 h-[1000px] px-6'>
         <Carousel images={imgs} />
       </div>
     </div>
