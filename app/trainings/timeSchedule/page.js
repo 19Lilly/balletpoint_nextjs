@@ -14,8 +14,14 @@ const TimeSchedule = () => {
         <div className='p-2'></div>
         <div className='p-2'></div>
         <div className='p-2'>Ut</div>
-        <div className='p-2 bg-yellow-400 text-white'> Classic 1</div>
-        <div className='p-2 bg-rose-600 text-white'> Classic 3</div>
+        <div className='p-2 bg-yellow-400 text-white text-center md:text-left'>
+          {' '}
+          Classic 1
+        </div>
+        <div className='p-2 bg-rose-600 text-white text-center md:text-left'>
+          {' '}
+          Classic 3
+        </div>
         <div className='p-2'></div>
         <div className='p-2'>Str</div>
         <div className='p-2'></div>
@@ -26,9 +32,15 @@ const TimeSchedule = () => {
         <div className='p-2'></div>
         <div className='p-2'></div>
         <div className='p-2'>Pia</div>
-        <div className='p-2 bg-yellow-400 text-white'>Classic 1</div>
-        <div className='p-2 bg-purple-600 text-white'>Classic 2</div>
-        <div className='p-2 bg-rose-600 text-white'>Classic 3</div>
+        <div className='p-2 bg-yellow-400 text-white text-center md:text-left'>
+          Classic 1
+        </div>
+        <div className='p-2 bg-purple-600 text-white text-center md:text-left'>
+          Classic 2
+        </div>
+        <div className='p-2 bg-rose-600 text-white text-center md:text-left'>
+          Classic 3
+        </div>
       </div>
     </div>
   );
