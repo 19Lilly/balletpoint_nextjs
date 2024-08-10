@@ -4,7 +4,32 @@ const TimeSchedule = () => {
   return (
     <div className='max-w-7xl mx-auto space-y-6'>
       <h1 className='text-5xl text-fuchsia-600 font-bold'>Rozvrh hodín</h1>
-      <p>Pripravuje sa</p>
+      <div className='grid  grid-cols-[auto_1fr_1fr_1fr] border divide-y divide-x'>
+        <div className='p-2'>deň/čas</div>
+        <div className='p-2'>15:30-16:45</div>
+        <div className='p-2'>16:50-18:05</div>
+        <div className='p-2'>18:05-19:20</div>
+        <div className='p-2'>Po</div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'>Ut</div>
+        <div className='p-2 bg-yellow-400 text-white'> Classic 1</div>
+        <div className='p-2 bg-rose-600 text-white'> Classic 3</div>
+        <div className='p-2'></div>
+        <div className='p-2'>Str</div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'>Št</div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'></div>
+        <div className='p-2'>Pia</div>
+        <div className='p-2 bg-yellow-400 text-white'>Classic 1</div>
+        <div className='p-2 bg-purple-600 text-white'>Classic 2</div>
+        <div className='p-2 bg-rose-600 text-white'>Classic 3</div>
+      </div>
     </div>
   );
 };
