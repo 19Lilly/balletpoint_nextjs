@@ -43,14 +43,14 @@ const singleGallery = ({ params }) => {
   }));
 
   return (
-    <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 text-black relative '>
+    <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 text-black relative p-4 '>
       <h1 className=' flex justify-between'>
         <span className='text-5xl font-bold text-fuchsia-600 py-4'>
           {title}
         </span>
         <Link
           href='/gallery'
-          className='hover:text-fuchsia-600 hover:scale-110 flex gap-2 items-center'
+          className='hover:text-fuchsia-600 hover:scale-110 flex items-center gap-2'
         >
           <TiArrowBackOutline />
           Späť na zoznam
