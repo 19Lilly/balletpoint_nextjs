@@ -44,7 +44,7 @@ const singleGallery = ({ params }) => {
 
   return (
     <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 text-black relative p-4 '>
-      <h1 className=' flex justify-between'>
+      <h1 className=' flex justify-between gap-6 flex-wrap'>
         <span className='text-5xl font-bold text-fuchsia-600 py-4'>
           {title}
         </span>
