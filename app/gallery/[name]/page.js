@@ -56,7 +56,7 @@ const singleGallery = ({ params }) => {
           Späť na zoznam
         </Link>
       </h1>
-      <div className='w-70 h-[1000px] px-6'>
+      <div className='w-[min(70rem,98%)] h-[1000px] px-6'>
         <Carousel images={imgs} />
       </div>
     </div>
