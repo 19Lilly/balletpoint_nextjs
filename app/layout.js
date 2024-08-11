@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className='min-h-[100dvh] grid grid-rows-[auto_1fr_auto] text-xl'>
-        <GoogleTagManager gtmId={process.env.GTM_ID} />
+        <GoogleTagManager gtmId={'GTM-P7DH28G5'} />
         <Navbar />
         {children}
         <Footer />
