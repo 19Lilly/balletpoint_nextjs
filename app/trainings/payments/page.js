@@ -24,32 +24,32 @@ const Payments = () => {
     },
   ];
   return (
-    <div className='max-w-7xl mx-auto space-y-6'>
-      <h1 className='text-5xl text-fuchsia-600 font-bold'>Platby</h1>
+    <div className='main-container'>
+      <h1>Platby</h1>
 
-      <p>
+      <p className='md:w-[80ch]'>
         <span className='font-bold'>1 hodina/týždeň: </span>
         30€/mesiac
       </p>
-      <p>
+      <p className='md:w-[80ch]'>
         <span className='font-bold'>2 hodiny/týždeň: </span>
         60€/mesiac
       </p>
-      <p>
+      <p className='md:w-[80ch]'>
         <span className='font-bold'>Zľava súrodenec: </span>
         5€/mesiac
       </p>
-      <p>
-        <p>
+      <div>
+        <p className='md:w-[80ch]'>
           <span className='font-bold'>IBAN: </span>
           SK23 0900 0000 0052 1937 5395
         </p>
-        <p className='text-pretty w-[min(70ch,98%)] mt-4'>
+        <p className='text-pretty md:w-[80ch] mt-4'>
           Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu
           a za ktoré mesiace je daná platba napr. Janko Mrkvička, C1, september
           + október
         </p>
-      </p>
+      </div>
 
       <ul>
         {platby.map(platba => {
@@ -57,8 +57,8 @@ const Payments = () => {
             <li className='flex gap-4 border-b-2 p-2 w-[min(25rem,98%)]'>
               <h3 className='font-bold text-xl'>{platba.name}</h3>
               <div>
-                <p>{platba.months}</p>
-                <p>
+                <p className='md:w-[80ch]'>{platba.months}</p>
+                <p className='md:w-[80ch]'>
                   <span className='font-bold'>Splatnosť:</span> {platba.dueDate}
                 </p>
               </div>

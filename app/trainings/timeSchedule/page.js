@@ -2,9 +2,9 @@ import React from 'react';
 
 const TimeSchedule = () => {
   return (
-    <div className='max-w-7xl mx-auto space-y-6'>
-      <h1 className='text-5xl text-fuchsia-600 font-bold'>Rozvrh hodín</h1>
-      <div className='grid  grid-cols-[auto_1fr_1fr_1fr] border divide-y divide-x'>
+    <div className='main-container'>
+      <h1>Rozvrh hodín</h1>
+      <div className='grid  grid-cols-[auto_1fr_1fr_1fr] divide-y divide-x border-b border-r'>
         <div className='p-2'>deň/čas</div>
         <div className='p-2'>15:30-16:45</div>
         <div className='p-2'>16:50-18:05</div>
@@ -44,14 +44,14 @@ const TimeSchedule = () => {
       </div>
 
       <div className='flex flex-col'>
-        <p className='flex gap-4 py-4'>
+        <p className='flex gap-4 py-4 md:w-[80ch]'>
           <span className='font-bold'>Classic 1: </span> tanečná príprava
         </p>
-        <p className='flex gap-4 py-4'>
+        <p className='flex gap-4 py-4 md:w-[80ch]'>
           <span className='font-bold'>Classic 2: </span> základy klasického
           tanca
         </p>
-        <p className='flex gap-4 py-4'>
+        <p className='flex gap-4 py-4 md:w-[80ch]'>
           <span className='font-bold'>Classic 3: </span> Contemporary class,
           klasický tanec
         </p>

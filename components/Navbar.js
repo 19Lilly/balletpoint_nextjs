@@ -36,12 +36,12 @@ const Navbar = () => {
       EN: 'Gallery',
       href: '/gallery',
     },
-    {
-      id: useId(),
-      SK: 'Podujatia',
-      EN: 'Events',
-      href: '/events',
-    },
+    // {
+    //   id: useId(),
+    //   SK: 'Podujatia',
+    //   EN: 'Events',
+    //   href: '/events',
+    // },
     {
       id: useId(),
       SK: 'Kontakt',

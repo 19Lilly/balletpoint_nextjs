@@ -24,10 +24,8 @@ const Gallery = () => {
   ];
 
   return (
-    <div className='max-w-7xl p-4 mx-auto w-full '>
-      <h1 className='text-5xl font-bold py-4 flex items-center text-fuchsia-600'>
-        Galéria
-      </h1>
+    <div className='main-container'>
+      <h1>Galéria</h1>
       <ul className='flex flex-col gap-6'>
         {galleryData.map(gallery => {
           return (

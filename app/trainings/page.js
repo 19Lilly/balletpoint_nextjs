@@ -17,9 +17,9 @@ const Trainings = () => {
     },
   ];
   return (
-    <div className='max-w-7xl mx-auto space-y-6 w-full'>
-      <h1 className='text-5xl text-fuchsia-600 font-bold'>Skupiny</h1>
-      <p className='text-pretty'>
+    <div className='main-container'>
+      <h1>Skupiny</h1>
+      <p className='text-pretty md:w-[80ch]'>
         Rozdelenie do skupín má len informačný charakter. Zápis do jednotlivých
         skupín prebieha po konzultácii s pedagógom.
       </p>

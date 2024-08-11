@@ -43,8 +43,8 @@ const singleGallery = ({ params }) => {
   }));
 
   return (
-    <div className='mx-auto max-w-7xl w-full flex flex-col gap-4 text-black relative p-4 '>
-      <h1 className=' flex justify-between gap-6 flex-wrap'>
+    <div className='main-container relative'>
+      <h2 className=' flex justify-between gap-6 flex-wrap'>
         <span className='text-5xl font-bold text-fuchsia-600 py-4'>
           {title}
         </span>
@@ -55,7 +55,7 @@ const singleGallery = ({ params }) => {
           <TiArrowBackOutline />
           Späť na zoznam
         </Link>
-      </h1>
+      </h2>
       <div className='w-[min(70rem,98%)] h-[1000px]'>
         <Carousel images={imgs} isMaximized={true} />
       </div>
