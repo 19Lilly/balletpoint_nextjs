@@ -10,7 +10,7 @@ import 'react-gallery-carousel/dist/index.css';
 const TeacherResume = () => {
   const resumeImg = [
     {
-      src: '/images/resume',
+      src: '/images/Resume',
       url: 'resume',
       numbers: [2, 3, 4, 5, 6, 7],
     },
