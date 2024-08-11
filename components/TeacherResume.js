@@ -1,9 +1,27 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
-import ProfilePicture from '/public/images/Resume/resume_images_00.jpg';
-import DancingAlone from '/public/images/Resume/resume_images_01.jpg';
+import ProfilePicture from '/public/images/Resume/resume_1.jpg';
+import Link from 'next/link';
+import { FaArrowRight } from 'react-icons/fa';
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
 
 const TeacherResume = () => {
+  const resumeImg = [
+    {
+      src: '/images/resume',
+      url: 'resume',
+      numbers: [2, 3, 4, 5, 6, 7],
+    },
+  ];
+
+  const [{ src, url, numbers }] = resumeImg;
+
+  const imgs = numbers.map(number => ({
+    src: `${src}/${url}_${number}.jpg`,
+  }));
+
   return (
     <div className='main-container relative'>
       <h1 className='m-0 mb-10 mx-auto text-center flex md:mx-0 md:text-left'>
@@ -87,6 +105,20 @@ const TeacherResume = () => {
           Bratislave
         </li>
       </ul>
+      <div className='flex gap-4 flex-wrap md:w-[80ch] items-center'>
+        Pre viac informáci si môžete prečítať rozhovor s pani učiteľkou v
+        Lamačanovi
+        <Link
+          href='https://lamacan.sk/rozhovory/petra-babosova-baletka-ktorej-studenti-uspeli-v-la-scale'
+          className=' hover:text-fuchsia-600 hover:border-fuchsia-600 flex items-center gap-4 border p-2 rounded-xl w-fit'
+          target='_blank'
+        >
+          prečítať <FaArrowRight />
+        </Link>
+      </div>
+      <div className='h-[700px]'>
+        <Carousel images={imgs} />
+      </div>
     </div>
   );
 };
