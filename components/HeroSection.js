@@ -6,7 +6,7 @@ const HeroSection = () => {
       className="bg-[url('/images/main-picture.jpg')] bg-no-repeat bg-cover"
       fetchPriority='high'
     >
-      <div className='flex flex-col max-w-7xl h-full mx-auto relative'>
+      <div className='main-container flex flex-col h-full  relative'>
         <QuickLinksSidebar />
       </div>
     </div>

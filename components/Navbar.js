@@ -105,7 +105,7 @@ const Navbar = () => {
             </ul>
           )}
         </div>
-        <div className='text-4xl hidden'>SK</div>{' '}
+        <div className='text-4xl hidden'>SK</div>
         {/*dropdown menu pre vyber jazyka */}
       </div>
     </nav>
