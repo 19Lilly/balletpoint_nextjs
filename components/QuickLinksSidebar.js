@@ -21,11 +21,11 @@ const QuickLinksSidebar = () => {
   ];
 
   return (
-    <div className='flex flex-col justify-between w-fit gap-6 absolute bottom-4 right-4'>
+    <ul className='flex flex-col justify-between w-fit gap-6 absolute bottom-4 right-4'>
       {quicklinks.map(({ title, href, id }) => {
-        return <QuickLink title={title} href={href} key={id} />;
+        return <QuickLink title={title} href={href} id={id} />;
       })}
-    </div>
+    </ul>
   );
 };
 
