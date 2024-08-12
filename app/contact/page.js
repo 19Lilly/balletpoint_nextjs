@@ -20,16 +20,8 @@ const Contact = () => {
             <div className='flex flex-wrap gap-4 p-4 border-b-2'>
               <span className='font-bold'>Adresa:</span>
               <div>
-                <p>Tanečná škola Dancers</p>
                 <p>Malokarpatské námestie 3</p>
                 <p>Bratislava</p>
-                <a
-                  href='https://www.dancers.sk/'
-                  target='_blank'
-                  className='underline underline-offset-2 hover:text-fuchsia-600'
-                >
-                  www.dancers.sk
-                </a>
               </div>
             </div>
 
