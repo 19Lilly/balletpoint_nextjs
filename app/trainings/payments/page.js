@@ -52,9 +52,12 @@ const Payments = () => {
       </div>
 
       <ul>
-        {platby.map(platba => {
+        {platby.map((platba, index) => {
           return (
-            <li className='flex gap-4 border-b-2 p-2 w-[min(25rem,98%)]'>
+            <li
+              className='flex gap-4 border-b-2 p-2 w-[min(25rem,98%)]'
+              key={index}
+            >
               <h3 className='font-bold text-xl'>{platba.name}</h3>
               <div>
                 <p className='md:w-[80ch]'>{platba.months}</p>

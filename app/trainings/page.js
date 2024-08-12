@@ -24,9 +24,9 @@ const Trainings = () => {
         skupín prebieha po konzultácii s pedagógom.
       </p>
       <ul className='w-fit'>
-        {groupsData.map(group => {
+        {groupsData.map((group, index) => {
           return (
-            <li className='flex gap-6 p-4 items-center border-b-2'>
+            <li className='flex gap-6 p-4 items-center border-b-2' key={index}>
               <h2 className='text-2xl font-bold'>{group.name}</h2>
               <p className='self-end'>
                 <span className='font-bold'>Vek: </span> {group.age}

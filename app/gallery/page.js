@@ -27,16 +27,19 @@ const Gallery = () => {
     <div className='main-container'>
       <h1>Galéria</h1>
       <ul className='grid md:grid-cols-2'>
-        {galleryData.map(gallery => {
+        {galleryData.map((gallery, index) => {
           return (
-            <Link href={`/gallery/${gallery.url}`}>
-              <li className='grid grid-cols-3 border-b-2 p-4 w-[min(30rem,98%)] hover:text-fuchsia-600'>
+            <li key={index}>
+              <Link
+                href={`/gallery/${gallery.url}`}
+                className='grid grid-cols-3 border-b-2 p-4 w-[min(30rem,98%)] hover:text-fuchsia-600'
+              >
                 <RiFolderImageLine className='size-20 col-span-1' />
                 <h2 className='text-2xl col-span-2 self-center'>
                   {gallery.name}
                 </h2>
-              </li>
-            </Link>
+              </Link>
+            </li>
           );
         })}
       </ul>
