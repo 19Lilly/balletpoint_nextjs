@@ -51,9 +51,9 @@ const TimeSchedule = () => {
           <span className='font-bold'>Classic 2: </span> základy klasického
           tanca
         </p>
-        <p className='flex gap-4 py-4 md:w-[80ch] flex-wrap'>
-          <span className='font-bold'>Classic 3: </span> Contemporary class,
-          klasický tanec
+        <p className='flex gap-4 py-4 md:w-[80ch]'>
+          <span className='font-bold'>Classic 3: </span>
+          <p className='flex flex-wrap'>Contemporary class, klasický tanec</p>
         </p>
       </div>
     </div>
