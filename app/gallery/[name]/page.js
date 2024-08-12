@@ -6,7 +6,7 @@ import 'react-gallery-carousel/dist/index.css';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Link from 'next/link';
 
-const singleGallery = ({ params }) => {
+const SingleGallery = ({ params }) => {
   const galleryData = [
     {
       title: 'Naše hodiny',
@@ -31,10 +31,12 @@ const singleGallery = ({ params }) => {
       ],
     },
     {
-      title: 'Výlet do SND',
+      title: 'SND - Narodil sa chrobáčik a Rukopisy majstrov galéria',
       url: 'tripToSND',
       src: '/public/images/tripToSND',
-      numbers: [],
+      numbers: [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+      ],
     },
   ];
 
@@ -67,4 +69,4 @@ const singleGallery = ({ params }) => {
   );
 };
 
-export default singleGallery;
+export default SingleGallery;
