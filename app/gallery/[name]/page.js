@@ -33,7 +33,7 @@ const SingleGallery = ({ params }) => {
     {
       title: 'SND - Narodil sa chrobáčik a Rukopisy majstrov galéria',
       url: 'tripToSND',
-      src: '/public/images/tripToSND',
+      src: '/images/tripToSND',
       numbers: [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
     },
   ];
