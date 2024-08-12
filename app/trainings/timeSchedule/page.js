@@ -8,7 +8,7 @@ const TimeSchedule = () => {
         <div className='p-2'>deň/čas</div>
         <div className='p-2'>15:30-16:45</div>
         <div className='p-2'>16:50-18:05</div>
-        <div className='p-2'>18:05-19:20</div>
+        <div className='p-2'>18:10-19:25</div>
         <div className='p-2'>Po</div>
         <div className='p-2'></div>
         <div className='p-2'></div>
@@ -51,7 +51,7 @@ const TimeSchedule = () => {
           <span className='font-bold'>Classic 2: </span> základy klasického
           tanca
         </p>
-        <p className='flex gap-4 py-4 md:w-[80ch]'>
+        <p className='flex gap-4 py-4 md:w-[80ch] flex-wrap'>
           <span className='font-bold'>Classic 3: </span> Contemporary class,
           klasický tanec
         </p>
