@@ -15,11 +15,9 @@ const TimeSchedule = () => {
         <div className='p-2'></div>
         <div className='p-2'>Ut</div>
         <div className='p-2 bg-yellow-400 text-white text-center md:text-left'>
-          {' '}
           Classic 1
         </div>
         <div className='p-2 bg-rose-600 text-white text-center md:text-left'>
-          {' '}
           Classic 3
         </div>
         <div className='p-2'></div>
@@ -43,21 +41,18 @@ const TimeSchedule = () => {
         </div>
       </div>
 
-      <div className='flex flex-col'>
-        <p className='flex gap-4 py-4 md:w-[80ch]'>
-          <span className='font-bold'>Classic 1: </span> tanečná príprava
-        </p>
-        <p className='flex gap-4 py-4 md:w-[80ch]'>
-          <span className='font-bold'>Classic 2: </span> základy klasického
-          tanca
-        </p>
-        <p className='flex gap-4 py-4 md:w-[80ch]'>
-          <span className='font-bold'>Classic 3: </span>
-          <p className='flex flex-wrap'>Contemporary class, klasický tanec</p>
-        </p>
+      <div className='grid grid-cols-[auto_1fr] gap-3 py-2'>
+        <span className='font-bold'>Classic 1: </span>
+        <p>tanečná príprava</p>
+
+        <span className='font-bold'>Classic 2: </span>
+        <p>základy klasického tanca</p>
+
+        <span className='font-bold '>Classic 3: </span>
+        <p>Contemporary class, klasický tanec</p>
       </div>
     </div>
   );
-};
+}
 
 export default TimeSchedule;
