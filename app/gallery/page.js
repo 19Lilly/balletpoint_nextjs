@@ -13,10 +13,10 @@ const Gallery = () => {
       name: 'Záverečný koncert - 30.6.2024',
       url: 'finalConcert_30_6_2024',
     },
-    // {
-    //   name: 'Ballet point Letný tábor 2024',
-    //   url: 'balletPoint_summerCamp_2024',
-    // },
+    {
+      name: 'Ballet point - Letný tábor 2024',
+      url: 'balletPoint_summerCamp2024',
+    },
     // {
     //   name: 'SND',
     //   url: 'tripToSND',

@@ -22,9 +22,13 @@ const singleGallery = ({ params }) => {
     },
     {
       title: 'Ballet point Letný tábor 2024',
-      url: 'balletPoint_summerCamp_2024',
-      src: '/images/balletPoint_SummerCamp_2024',
-      numbers: [],
+      url: 'balletPoint_summerCamp2024',
+      src: '/images/balletPoint_SummerCamp2024',
+      numbers: [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+        21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+        39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
+      ],
     },
     {
       title: 'Výlet do SND',
@@ -56,7 +60,7 @@ const singleGallery = ({ params }) => {
           Späť na zoznam
         </Link>
       </h2>
-      <div className='w-[min(70rem,98%)] h-[1000px]'>
+      <div className='w-[min(70rem,98%)] h-[1000px] mx-auto'>
         <Carousel images={imgs} isMaximized={true} />
       </div>
     </div>
