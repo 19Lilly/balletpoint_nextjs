@@ -1,8 +1,8 @@
-
+import Signature from '@/components/Signature';
 
 const About = () => {
   return (
-    <div className='main-container '>
+    <div className='main-container select-none'>
       <h1 className=''>Ballet Point</h1>
 
       <p className='text-pretty md:w-[70ch] '>
@@ -23,7 +23,10 @@ const About = () => {
       <p className='text-pretty md:w-[70ch]'>
         V Ballet point robíme presne toto-rozprávame pohybom tvoríme umenie.{' '}
       </p>
-      <p>Petra Babošová</p>
+      <div className='md:w-[80ch] flex flex-col gap-2 '>
+        <Signature className='-ml-6' />
+        <p>Petra Babošová</p>
+      </div>
     </div>
   );
 };
