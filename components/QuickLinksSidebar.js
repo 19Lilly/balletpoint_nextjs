@@ -23,7 +23,7 @@ const QuickLinksSidebar = () => {
   return (
     <ul className='flex flex-col justify-between w-fit gap-6 absolute bottom-4 right-4'>
       {quicklinks.map(({ title, href, id }) => {
-        return <QuickLink title={title} href={href} id={id} />;
+        return <QuickLink title={title} href={href} key={id} />;
       })}
     </ul>
   );
