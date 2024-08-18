@@ -6,9 +6,7 @@ import 'react-gallery-carousel/dist/index.css';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'Galéria',
-};
+
 
 
 const SingleGallery = ({ params }) => {
