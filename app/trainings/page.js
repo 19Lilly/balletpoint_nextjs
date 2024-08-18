@@ -1,17 +1,23 @@
-import { Divide } from 'lucide-react';
-import React from 'react';
+import React, { useId } from 'react';
+
+export const metadata = {
+  title: 'Rozdelenie do skupín - tréningy',
+};
 
 const Trainings = () => {
   const groupsData = [
     {
+      id: useId(),
       name: 'Classic 1',
       age: '4-6 rokov',
     },
     {
+      id: useId(),
       name: 'Classic 2',
       age: '6-7 rokov',
     },
     {
+      id: useId(),
       name: 'Classic 3',
       age: '8-12 rokov',
     },
@@ -23,18 +29,18 @@ const Trainings = () => {
         Rozdelenie do skupín má len informačný charakter. Zápis do jednotlivých
         skupín prebieha po konzultácii s pedagógom.
       </p>
-      <ul className='w-fit'>
-        {groupsData.map((group, index) => {
+      <div className='w-fit'>
+        {groupsData.map(({ id, name, age }) => {
           return (
-            <li className='flex gap-6 p-4 items-center border-b-2' key={index}>
-              <h2 className='text-2xl font-bold'>{group.name}</h2>
+            <div className='flex gap-6 p-4 items-center border-b-2' key={id}>
+              <h2 className='text-2xl font-bold'>{name}</h2>
               <p className='self-end'>
-                <span className='font-bold'>Vek: </span> {group.age}
+                <span className='font-bold'>Vek: </span> {age}
               </p>
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 };

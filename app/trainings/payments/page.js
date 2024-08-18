@@ -1,5 +1,11 @@
 import React from 'react';
 
+export const metadata = {
+  title: 'Platby',
+  description: 'Rozpis jednotlivých platieb za kurzy baletu.',
+};
+
+
 const Payments = () => {
   const platby = [
     {
