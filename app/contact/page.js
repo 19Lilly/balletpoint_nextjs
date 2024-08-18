@@ -2,6 +2,11 @@
 import React, { Suspense } from 'react';
 import Loading from './loading';
 
+export const metadata = {
+  title: 'Kontakt',
+};
+
+
 const Contact = () => {
   return (
     <div className=' main-container'>

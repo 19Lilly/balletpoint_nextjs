@@ -1,5 +1,10 @@
 import React from 'react';
 
+export const metadata = {
+  title: 'Rozvrh hodín',
+  descritpion: 'Prehľad rozvrhu hodín pre jednotlivé skupiny baletiek.',
+};
+
 const TimeSchedule = () => {
   return (
     <div className='main-container'>

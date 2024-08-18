@@ -3,6 +3,11 @@ import React from 'react';
 import Link from 'next/link';
 import { RiFolderImageLine } from 'react-icons/ri';
 
+export const metadata = {
+  title: 'Galéria',
+};
+
+
 const Gallery = () => {
   const galleryData = [
     {
