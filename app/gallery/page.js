@@ -42,6 +42,7 @@ const Gallery = () => {
                   src={`/images/${url}/thumbnail.jpg`}
                   width={250}
                   height={250}
+                  alt={`Zmenšený obrázok z galérie ${name}`}
                 />
                 <h2 className='text-2xl col-span-2 self-center'>{name}</h2>
               </Link>
