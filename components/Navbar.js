@@ -1,51 +1,17 @@
 'use client';
 
-import React, { useId, useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { MdMenu } from 'react-icons/md';
 import { LiaTimesSolid } from 'react-icons/lia';
 import Logo from './Logo';
 import { usePathname } from 'next/navigation';
+import { navigation } from '@/app/data';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const navigation = [
-    {
-      id: useId(),
-      SK: 'Domov',
-      EN: 'Home',
-      href: '/',
-    },
-    {
-      id: useId(),
-      SK: 'O nás',
-      EN: 'About us',
-      href: '/about',
-    },
-
-    {
-      id: useId(),
-      SK: 'Tréningy',
-      EN: 'Trainings',
-      href: '/trainings',
-    },
-    {
-      id: useId(),
-      SK: 'Galéria',
-      EN: 'Gallery',
-      href: '/gallery',
-    },
-    {
-      id: useId(),
-      SK: 'Kontakt',
-      EN: 'Contact',
-      href: '/contact',
-    },
-  ];
-
   const pathName = usePathname();
-
 
   return (
     <div className='bg-zinc-950 text-white text-xl'>
@@ -54,19 +20,19 @@ const Navbar = () => {
           <Logo />
         </Link>
         <div className='hidden lg:flex gap-4 '>
-          {navigation.map(item => {
+          {navigation.map(({ id, href, SK }) => {
             return (
               <Link
-                key={item.id}
-                href={item.href}
+                key={id}
+                href={href}
                 className={`p-4 hover:bg-fuchsia-600 rounded-lg 
                     ${
-                      pathName.substring(0, 7) === item.href.substring(0, 7)
+                      pathName.substring(0, 7) === href.substring(0, 7)
                         ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
                         : null
                     }`}
               >
-                {item.SK}
+                {SK}
               </Link>
             );
           })}
@@ -78,19 +44,19 @@ const Navbar = () => {
           {nav ? <LiaTimesSolid /> : <MdMenu />}
           {nav && (
             <div className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute z-30 -left-44 top-8 '>
-              {navigation.map(item => (
+              {navigation.map(({ id, href, SK }) => (
                 <Link
-                  key={item.id}
+                  key={id}
                   onClick={() => setNav(!nav)}
-                  href={item.href}
+                  href={href}
                   className={`p-2 cursor-pointer text-xl w-full rounded-lg hover:bg-fuchsia-600
                     ${
-                      pathName.substring(0, 7) === item.href.substring(0, 7)
+                      pathName.substring(0, 7) === href.substring(0, 7)
                         ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
                         : null
                     }`}
                 >
-                  {item.SK}
+                  {SK}
                 </Link>
               ))}
             </div>
