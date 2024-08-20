@@ -9,5 +9,5 @@ h1 {
 
 
 .main-container {
-    @apply mx-auto max-w-7xl w-full p-4 space-y-6;
+    @apply mx-auto max-w-7xl w-full p-4 space-y-6 text-center md:text-left flex flex-col items-center md:items-start;
   }

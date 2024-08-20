@@ -52,6 +52,33 @@ const quicklinks = [
   },
 ];
 
+const platby = [
+  {
+    id: uuid(),
+    name: '1.platba',
+    months: 'September + Október',
+    dueDate: '3.9.2024',
+  },
+  {
+    id: uuid(),
+    name: '2.platba',
+    months: 'November + December + Január',
+    dueDate: '5.11.2024',
+  },
+  {
+    id: uuid(),
+    name: '3.platba',
+    months: 'Február + Marec + Apríl',
+    dueDate: '4.2.2025',
+  },
+  {
+    id: uuid(),
+    name: '4.platba',
+    months: 'Máj + Jún',
+    dueDate: '2.5.2025',
+  },
+];
+
 const galleryData = [
   {
     id: uuid(),
@@ -83,4 +110,4 @@ const galleryData = [
   },
 ];
 
-export { navigation, quicklinks, galleryData };
+export { navigation, quicklinks, platby, galleryData };

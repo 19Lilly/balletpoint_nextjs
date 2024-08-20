@@ -29,7 +29,7 @@ const About = () => {
         V Ballet point robíme presne toto-rozprávame pohybom tvoríme umenie.{' '}
       </p>
       <div className='md:w-[80ch] flex flex-col gap-2 '>
-        <Signature className='-ml-6' />
+        <Signature className='md:-ml-6' />
         <p>Petra Babošová</p>
       </div>
     </div>

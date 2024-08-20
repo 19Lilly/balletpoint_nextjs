@@ -2,7 +2,7 @@ import React from 'react';
 
 const MobileTimeTable = ({ className }) => {
   return (
-    <div className={`${className} text-center space-y-4`}>
+    <div className={`${className} text-center space-y-4 w-full`}>
       <div>
         <div className='border p-4 '>
           <p className='text-3xl font-bold'>Pondelok</p>

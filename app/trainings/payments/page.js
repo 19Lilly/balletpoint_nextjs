@@ -1,52 +1,30 @@
 import React from 'react';
+import { platby } from '@/app/data';
 
 export const metadata = {
   title: 'Platby',
   description: 'Rozpis jednotlivých platieb za kurzy baletu.',
 };
 
-
 const Payments = () => {
-  const platby = [
-    {
-      name: '1.platba',
-      months: 'September + Október',
-      dueDate: '3.9.2024',
-    },
-    {
-      name: '2.platba',
-      months: 'November + December + Január',
-      dueDate: '5.11.2024',
-    },
-    {
-      name: '3.platba',
-      months: 'Február + Marec + Apríl',
-      dueDate: '4.2.2025',
-    },
-    {
-      name: '4.platba',
-      months: 'Máj + Jún',
-      dueDate: '2.5.2025',
-    },
-  ];
   return (
-    <div className='main-container'>
+    <div className='main-container '>
       <h1>Platby</h1>
 
-      <p className='md:w-[80ch]'>
+      <p className='self-start md:w-[80ch]'>
         <span className='font-bold'>1 hodina/týždeň: </span>
         30€/mesiac
       </p>
-      <p className='md:w-[80ch]'>
+      <p className=' self-start md:w-[80ch]'>
         <span className='font-bold'>2 hodiny/týždeň: </span>
         60€/mesiac
       </p>
-      <p className='md:w-[80ch]'>
+      <p className='self-start md:w-[80ch]'>
         <span className='font-bold'>Zľava súrodenec: </span>
         5€/mesiac
       </p>
       <div>
-        <p className='md:w-[80ch]'>
+        <p className='text-left md:w-[80ch]'>
           <span className='font-bold'>IBAN: </span>
           SK23 0900 0000 0052 1937 5395
         </p>
@@ -57,18 +35,15 @@ const Payments = () => {
         </p>
       </div>
 
-      <ul>
-        {platby.map((platba, index) => {
+      <ul className='self-start w-[min(30rem,98%)]'>
+        {platby.map(({ id, name, months, dueDate }) => {
           return (
-            <li
-              className='flex gap-4 border-b-2 p-2 w-[min(25rem,98%)]'
-              key={index}
-            >
-              <h3 className='font-bold text-xl'>{platba.name}</h3>
-              <div>
-                <p className='md:w-[80ch]'>{platba.months}</p>
+            <li className='flex gap-4 border-b-2 p-2' key={id}>
+              <h3 className='font-bold text-xl'>{name}</h3>
+              <div className='text-left'>
+                <p className='md:w-[80ch]'>{months}</p>
                 <p className='md:w-[80ch]'>
-                  <span className='font-bold'>Splatnosť:</span> {platba.dueDate}
+                  <span className='font-bold'>Splatnosť:</span> {dueDate}
                 </p>
               </div>
             </li>

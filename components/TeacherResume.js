@@ -24,9 +24,7 @@ const TeacherResume = () => {
 
   return (
     <div className='main-container relative'>
-      <h1 className='m-0 mb-10 mx-auto text-center flex md:mx-0 md:text-left'>
-        Petra Babošová
-      </h1>
+      <h1>Petra Babošová</h1>
       <Image src={ProfilePicture} className='size-52 flex mx-auto md:mx-0' />
       <div className='my-6 flex flex-col gap-4 md:w-[80ch]'>
         <p>Narodila sa 27.6.1982 v Bratislave</p>
@@ -105,7 +103,7 @@ const TeacherResume = () => {
           Bratislave
         </p>
       </div>
-      <div className='flex gap-4 flex-wrap md:w-[80ch] items-center'>
+      <div className='flex gap-4 flex-wrap md:w-[80ch] items-center justify-center md:justify-normal'>
         Pre viac informáci si môžete prečítať rozhovor s pani učiteľkou v
         Lamačanovi
         <Link
