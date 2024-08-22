@@ -1,5 +1,6 @@
 import React from 'react';
 import { platby } from '@/app/data';
+import CopyToClipboard from '@/components/CopyToClipboard';
 
 export const metadata = {
   title: 'Platby',
@@ -24,9 +25,10 @@ const Payments = () => {
         5€/mesiac
       </p>
       <div>
-        <p className='text-left md:w-[80ch]'>
+        <p className='text-left md:w-[80ch] flex gap-2'>
           <span className='font-bold'>IBAN: </span>
           SK23 0900 0000 0052 1937 5395
+          <CopyToClipboard />
         </p>
         <p className='text-pretty md:w-[80ch] mt-4'>
           Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu
