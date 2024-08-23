@@ -25,10 +25,12 @@ const Payments = () => {
         5€/mesiac
       </p>
       <div>
-        <p className='text-left md:w-[80ch] flex gap-2'>
+        <p className='text-left md:w-[80ch] flex flex-col md:flex-row gap-2'>
           <span className='font-bold'>IBAN: </span>
-          SK23 0900 0000 0052 1937 5395
-          <CopyToClipboard />
+          <div className='flex gap-2'>
+            SK23 0900 0000 0052 1937 5395
+            <CopyToClipboard />
+          </div>
         </p>
         <p className='text-pretty md:w-[80ch] mt-4'>
           Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu

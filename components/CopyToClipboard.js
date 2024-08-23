@@ -19,7 +19,7 @@ const CopyToClipboard = () => {
       onClick={copyToClipboard}
     >
       {isShow && (
-        <span className='border rounded-xl px-1 absolute -top-4 -right-16  text-sm'>
+        <span className='border rounded-xl px-1 absolute -top-4 -right-12  text-sm'>
           skopírované
         </span>
       )}
