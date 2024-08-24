@@ -4,11 +4,13 @@ import './globals.css';
 
 
 export const metadata = {
-  title: 'Ballet point - prezentačná stránka',
-  description:
-    'Prezentačný web novej baletnej školy pre deti v Bratislave v Lamači. Aktuálne je otvorený zápis v troch skupinách pre školský rok 2024/2025.',
-  keywords:
-    'balet, deti, Bratislava, Lamač, tanec, baletná škola, 2024/2025, ballet, children, dance, ballet school',
+  title: {
+    default: 'Ballet point',
+    template: 'Ballet point: %s',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 };
 
 export default function RootLayout({ children }) {

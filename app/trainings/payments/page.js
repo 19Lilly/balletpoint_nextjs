@@ -4,7 +4,6 @@ import CopyToClipboard from '@/components/CopyToClipboard';
 
 export const metadata = {
   title: 'Platby',
-  description: 'Rozpis jednotlivých platieb za kurzy baletu.',
 };
 
 const Payments = () => {
