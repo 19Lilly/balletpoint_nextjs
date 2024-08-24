@@ -4,7 +4,6 @@ import DesktopTimeTable from '@/components/DesktopTimeTable';
 
 export const metadata = {
   title: 'Rozvrh hodín',
-  descritpion: 'Prehľad rozvrhu hodín pre jednotlivé skupiny baletiek.',
 };
 
 const TimeSchedule = () => {

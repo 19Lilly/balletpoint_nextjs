@@ -4,9 +4,13 @@ import './globals.css';
 
 
 export const metadata = {
+  metadataBase: new URL('https://www.balletpoint.sk'),
   title: {
     default: 'Ballet point',
     template: 'Ballet point: %s',
+  },
+  openGraph: {
+    images: '/app/opengraph-image.png',
   },
   twitter: {
     card: 'summary_large_image',

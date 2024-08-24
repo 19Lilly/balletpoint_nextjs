@@ -1,27 +1,11 @@
 import React, { useId } from 'react';
+import { groupsData } from '../data';
 
 export const metadata = {
-  title: 'Rozdelenie do skupín - tréningy',
+  title: 'Tréningy - rozdelenie do skupín',
 };
 
 const Trainings = () => {
-  const groupsData = [
-    {
-      id: useId(),
-      name: 'Classic 1',
-      age: '4-6 rokov',
-    },
-    {
-      id: useId(),
-      name: 'Classic 2',
-      age: '6-7 rokov',
-    },
-    {
-      id: useId(),
-      name: 'Classic 3',
-      age: '8-12 rokov',
-    },
-  ];
   return (
     <div className='main-container'>
       <h1>Skupiny</h1>

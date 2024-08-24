@@ -1,10 +1,14 @@
-'use client';
 import React from 'react';
-import Carousel from 'react-gallery-carousel';
+
 import 'react-gallery-carousel/dist/index.css';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Link from 'next/link';
 import { galleryData } from '@/app/data';
+import CarouselComponent from '@/components/CarouselComponent';
+
+// export const metadata = {
+//   title: `${params.name}`,
+// };
 
 const SingleGallery = ({ params }) => {
   const [{ title, url, numbers }] = galleryData.filter(
@@ -30,7 +34,7 @@ const SingleGallery = ({ params }) => {
         </Link>
       </h2>
       <div className='w-[min(70rem,98%)] h-[1000px] mx-auto'>
-        <Carousel images={imgs} isMaximized={true} />
+        <CarouselComponent images={imgs} />
       </div>
     </div>
   );

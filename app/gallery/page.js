@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { galleryData } from '../data';
 
+export const metadata = {
+  title: 'Galéria',
+};
+
 const Gallery = () => {
   return (
     <div className='main-container'>

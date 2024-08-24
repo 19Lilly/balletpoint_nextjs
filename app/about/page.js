@@ -1,9 +1,8 @@
 import Signature from '@/components/Signature';
 
 export const metadata = {
-  title: 'Ballet point - O nás',
+  title: 'O nás',
 };
-
 
 const About = () => {
   return (

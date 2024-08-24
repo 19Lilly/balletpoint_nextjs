@@ -10,22 +10,23 @@ const Registration = () => {
   return (
     <div className='main-container'>
       <h1>Zápis v školskom roku 2024/2025</h1>
-      <p className='md:max-w-[80ch] text-pretty'>
+      <p className='md:w-[80ch] text-pretty'>
         Aktuálne prebieha zápis do baletnej školy pre školský rok 2024/2025. Pre
-        viac informácii ohľadne prihlášky nás kontaktujte na emaile
+        viac informácii ohľadne prihlášky nás kontaktujte na emailovej adrese:
         <a
           href='mailto:info@balletpoint.sk'
-          className='underline underline-offset-2 hover:text-fuchsia-600'
+          className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
         >
           info@balletpoint.sk
         </a>
-        alebo na telefónnom čísle
+        alebo na telefónnom čísle:
         <a
           href='tel:+421949757911'
-          className='hover:text-fuchsia-600 underline underline-offset-2'
+          className='hover:text-fuchsia-600 font-bold underline underline-offset-2 px-2'
         >
           +421 949 757 911
         </a>
+        .
       </p>
 
       <div className='main-container flex items-center justify-center mx-auto'>
