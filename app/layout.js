@@ -6,7 +6,7 @@ import './globals.css';
 export const metadata = {
   metadataBase: new URL('https://www.balletpoint.sk'),
   title: {
-    default: 'Ballet point',
+    default: 'Ballet point - baletná škola pre deti v Bratislave',
     template: 'Ballet point: %s',
   },
   openGraph: {
