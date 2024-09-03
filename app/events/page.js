@@ -9,9 +9,9 @@ export const metadata = {
 
 const Events = () => {
   return (
-    <div className='main-container '>
+    <div className='main-container'>
       <h1>Podujatia</h1>
-      <p className='w-[80ch]'>
+      <p className='text-pretty md:w-[80ch]'>
         Ballent point Vás srdečne pozýva na vystúpenia naších baletiek.
         Najbližšie podujatia na ktorých vystúpime môžete nájsť nižšie.{' '}
       </p>
@@ -23,8 +23,13 @@ const Events = () => {
               key={id}
               className='grid md:grid-cols-[auto_1fr] gap-6 p-4 text-left '
             >
-              <Image src={img} width={200} height={300} className='border ' />
-              <div className=''>
+              <Image
+                src={img}
+                width={200}
+                height={300}
+                className='border mx-auto md:mx-0'
+              />
+              <div>
                 <p>
                   <span className='font-bold'>Názov:</span> {title}
                 </p>
@@ -35,7 +40,7 @@ const Events = () => {
                   <span className='font-bold'>Čas konania:</span> {time}
                 </p>
                 <p>
-                  <span className='font-bold'>Vystupujú:</span>
+                  <span className='font-bold'>Vystupujú: </span>
                   {participate.map(p => p)}
                 </p>
                 <p>
