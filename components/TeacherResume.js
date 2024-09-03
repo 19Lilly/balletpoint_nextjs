@@ -108,7 +108,7 @@ const TeacherResume = () => {
         Lamačanovi
         <Link
           href='https://lamacan.sk/rozhovory/petra-babosova-baletka-ktorej-studenti-uspeli-v-la-scale'
-          className=' hover:text-fuchsia-600 hover:border-fuchsia-600 flex items-center gap-4 border p-2 rounded-xl w-fit'
+          className=' hover:text-fuchsia-600 hover:border-fuchsia-600 flex items-center gap-4 border p-2 rounded-xl w-fit border-zinc-500'
           target='_blank'
         >
           prečítať <FaArrowRight />
