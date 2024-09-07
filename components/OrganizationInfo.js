@@ -30,7 +30,7 @@ const OrganizationInfo = () => {
         </ul>
       </p>
       <p className='md:w-[80ch] text-left'>
-        Potrebné veci môžete zakúpiť v obchodoch
+        Potrebné veci môžete zakúpiť v obchodoch:
         <ul className='ml-20 list-image-[url(/images/ballet.png)] flex flex-col gap-4 my-6'>
           <li>Solodance - Vyšehradská 6, Petržalka</li>
           <li>Dance wear - Kopčianska 8, Petržalka</li>

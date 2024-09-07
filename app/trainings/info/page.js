@@ -1,7 +1,10 @@
 import { infoData } from '@/app/data';
 import Link from 'next/link';
-
 import { FaArrowRight } from 'react-icons/fa';
+
+export const metadata = {
+  title: 'Informácie',
+};
 
 const Informations = () => {
   return (
