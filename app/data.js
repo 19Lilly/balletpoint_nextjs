@@ -1,4 +1,5 @@
 import { v4 as uuid } from 'uuid';
+import OrganizationInfo from '@/components/OrganizationInfo';
 
 const navigation = [
   {
@@ -68,6 +69,21 @@ const trainingsNavData = [
     id: uuid(),
     name: 'Platby',
     url: '/trainings/payments',
+  },
+  {
+    id: uuid(),
+    name: 'Info',
+    url: '/trainings/info',
+  },
+];
+
+const infoData = [
+  {
+    id: uuid(),
+    date: '6.9.2024',
+    title: 'Organizácia hodín v novom školskom roku',
+    url: 'organization-info-new-school-year',
+    component: <OrganizationInfo />,
   },
 ];
 
@@ -176,6 +192,16 @@ const eventsData = [
     img: '/images/rozalske-hody-2024.webp',
     participate: ['Classic 1, Classic 2, Classic 3'],
   },
+  {
+    id: uuid(),
+    date: '15.septembra 2024',
+    time: '15:15',
+    title: 'Festival vodníkov',
+    place: 'Vodárenská záhrada, Karlova ves',
+    url: 'https://www.karlovaves.sk/festival-vodnikov/',
+    img: '/images/festival_vodnikov_09_2024.jpg',
+    participate: ['Classic 3'],
+  },
 ];
 
 const contactData = [
@@ -206,6 +232,7 @@ export {
   trainingsNavData,
   quicklinks,
   groupsData,
+  infoData,
   platby,
   galleryData,
   eventsData,

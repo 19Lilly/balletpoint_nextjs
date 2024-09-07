@@ -40,7 +40,7 @@ const Events = () => {
                   <span className='font-bold'>Čas konania:</span> {time}
                 </p>
                 <p>
-                  <span className='font-bold'>Vystupujú:</span>
+                  <span className='font-bold'>Vystupujú: </span>
                   {participate.map(p => p)}
                 </p>
                 <p>
