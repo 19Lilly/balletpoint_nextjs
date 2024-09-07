@@ -2,8 +2,10 @@ const OrganizationInfo = () => {
   return (
     <>
       <p className='md:w-[80ch] text-pretty'>
-        Nových žiakov zaradíme do vyučovania budúci týždeň. Momentálne
-        prebiehajú skúšky choreografií na plánované vystúpenia.
+        Nových žiakov ballet pointu v MČ Lamač zaradíme do vyučovania budúci
+        týždeň. Momentálne prebiehajú skúšky choreografií na plánované
+        vystúpenia. V ballet pointe v MČ Podunajské Biskupice začínajú hodiny od
+        októbra 2024.
       </p>
       <p className='md:w-[80ch] text-left '>
         Priniesť si treba:

@@ -14,10 +14,10 @@ const Informations = () => {
         return (
           <Link
             href={`/trainings/info/${url}`}
-            className='grid grid-cols-[auto_1fr] w-[min(30rem,98%)] gap-6 border-b border-zinc-500 p-4 hover:text-fuchsia-600 '
+            className='grid grid-cols-[auto_1fr] w-[min(30rem,98%)] gap-6 border-b border-zinc-500 p-4 hover:text-fuchsia-600 text-left '
           >
             <p>{date}</p>
-            <div className='flex gap-2 items-center'>
+            <div className='flex gap-4 items-center'>
               <h2>{title}</h2>
               <FaArrowRight />
             </div>

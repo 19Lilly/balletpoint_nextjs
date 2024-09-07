@@ -81,7 +81,7 @@ const infoData = [
   {
     id: uuid(),
     date: '6.9.2024',
-    title: 'Organizácia hodín v novom školskom roku',
+    title: 'Organizácia hodín v novom šk.roku - Ballet point Lamač',
     url: 'organization-info-new-school-year',
     component: <OrganizationInfo />,
   },
@@ -96,7 +96,7 @@ const quicklinks = [
   {
     id: uuid(),
     title: 'Info',
-    href: '/trainings',
+    href: '/trainings/info',
   },
   {
     id: uuid(),
@@ -195,11 +195,11 @@ const eventsData = [
   {
     id: uuid(),
     date: '15.septembra 2024',
-    time: '15:15',
+    time: 'približne 15:25',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
     url: 'https://www.karlovaves.sk/festival-vodnikov/',
-    img: '/images/festival_vodnikov_09_2024.jpg',
+    img: '/images/festival_vodnikov_09_2024.png',
     participate: ['Classic 3'],
   },
 ];

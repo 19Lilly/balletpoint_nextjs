@@ -12,8 +12,7 @@ const Events = () => {
     <div className='main-container'>
       <h1>Podujatia</h1>
       <p className='text-pretty md:w-[80ch]'>
-        Ballent point Vás srdečne pozýva na vystúpenia naších baletiek.
-        Najbližšie podujatia na ktorých vystúpime môžete nájsť nižšie.{' '}
+        Najbližšie podujatia na ktorých nás môžete vidieť.
       </p>
 
       {eventsData.map(
