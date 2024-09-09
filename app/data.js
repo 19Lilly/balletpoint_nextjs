@@ -182,16 +182,16 @@ const galleryData = [
 ];
 
 const eventsData = [
-  {
-    id: uuid(),
-    date: '8.septembra 2024',
-    time: '16:50 - 17:05',
-    title: 'Rozálske hody 2024',
-    place: 'Malokarpatské námestie, Lamač',
-    url: 'https://www.lamac.sk/novinky/rozalske-hody-2024',
-    img: '/images/rozalske-hody-2024.webp',
-    participate: ['Classic 1, Classic 2, Classic 3'],
-  },
+  // {
+  //   id: uuid(),
+  //   date: '8.septembra 2024',
+  //   time: '16:50 - 17:05',
+  //   title: 'Rozálske hody 2024',
+  //   place: 'Malokarpatské námestie, Lamač',
+  //   url: 'https://www.lamac.sk/novinky/rozalske-hody-2024',
+  //   img: '/images/rozalske-hody-2024.webp',
+  //   participate: ['Classic 1, Classic 2, Classic 3'],
+  // },
   {
     id: uuid(),
     date: '15.septembra 2024',
