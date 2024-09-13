@@ -194,7 +194,7 @@ const eventsData = [
   // },
   {
     id: uuid(),
-    date: '15.septembra 2024',
+    date: 'jar 2025',
     time: 'približne 15:25',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
