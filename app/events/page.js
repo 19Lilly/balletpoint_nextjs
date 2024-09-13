@@ -26,9 +26,9 @@ const Events = () => {
                 src={img}
                 width={200}
                 height={300}
-                className='border mx-auto md:mx-0'
+                className={`border mx-auto md:mx-0 ${active ? 'opacity-100' : 'opacity-60'}`}
               />
-              <div className={active ? 'text-black' : 'text-zinc-700'}>
+              <div className={active ? 'text-black' : 'text-zinc-500'}>
                 <p>
                   <span className='font-bold'>Názov:</span> {title}
                 </p>

@@ -191,7 +191,7 @@ const eventsData = [
     {
     id: uuid(),
     date: 'jar 2025',
-    time: 'približne 15:25',
+    time: 'upresníme',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
     url: 'https://www.karlovaves.sk/festival-vodnikov/',
