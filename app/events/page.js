@@ -26,9 +26,11 @@ const Events = () => {
                 src={img}
                 width={200}
                 height={300}
-                className={`border mx-auto md:mx-0 ${active ? 'opacity-100' : 'opacity-60'}`}
+                className={`border mx-auto md:mx-0 ${
+                  active ? 'opacity-100' : 'opacity-50'
+                }`}
               />
-              <div className={active ? 'text-black' : 'text-zinc-500'}>
+              <div className={active ? 'text-black' : 'text-zinc-400'}>
                 <p>
                   <span className='font-bold'>Názov:</span> {title}
                 </p>
@@ -50,7 +52,8 @@ const Events = () => {
                   target='_blank'
                   className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-fuchsia-600 hover:border-fuchsia-600'
                 >
-                  {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'} <FaArrowRight />
+                  {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'}{' '}
+                  <FaArrowRight />
                 </a>
               </div>
             </div>
