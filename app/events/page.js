@@ -16,7 +16,7 @@ const Events = () => {
       </p>
 
       {eventsData.map(
-        ({ id, date, time, title, place, url, img, participate }) => {
+        ({ id, date, time, title, place, url, img, participate, active, urlGallery }) => {
           return (
             <div
               key={id}
@@ -28,7 +28,7 @@ const Events = () => {
                 height={300}
                 className='border mx-auto md:mx-0'
               />
-              <div className=''>
+              <div className={active ? 'text-black' : 'text-zinc-700'}>
                 <p>
                   <span className='font-bold'>Názov:</span> {title}
                 </p>
@@ -46,11 +46,11 @@ const Events = () => {
                   <span className='font-bold'>Miesto konanie:</span> {place}
                 </p>
                 <a
-                  href={url}
+                  href={active ? url : urlGallery}
                   target='_blank'
-                  className='border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-fuchsia-600 hover:border-fuchsia-600'
+                  className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-fuchsia-600 hover:border-fuchsia-600'
                 >
-                  Viac o akcii <FaArrowRight />
+                  {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'} <FaArrowRight />
                 </a>
               </div>
             </div>
