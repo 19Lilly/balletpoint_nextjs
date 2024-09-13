@@ -4,7 +4,6 @@ const Logo = () => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      version='1.0'
       className='size-20 hover:text-fuchsia-600'
       viewBox='0 0 1024.000000 1024.000000'
       preserveAspectRatio='xMidYMid meet'

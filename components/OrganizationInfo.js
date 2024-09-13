@@ -7,7 +7,7 @@ const OrganizationInfo = () => {
         vystúpenia. V ballet pointe v MČ Podunajské Biskupice začínajú hodiny od
         októbra 2024.
       </p>
-      <p className='md:w-[80ch] text-left '>
+      <p className='md:w-[80ch] text-left'>
         Priniesť si treba:
         <ul className='ml-20 list-image-[url(/images/ballet.png)] flex flex-col gap-4 my-6'>
           <li>Cvičky bielej farby</li>
