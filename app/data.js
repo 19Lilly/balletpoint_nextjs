@@ -81,8 +81,8 @@ const infoData = [
   {
     id: uuid(),
     date: '6.9.2024',
-    title: 'Organizácia hodín v novom šk.roku - Ballet point Lamač',
-    url: 'organization-info-new-school-year',
+    title: 'Organizácia hodín Ballet pointu',
+    url: 'organization-info',
     component: <OrganizationInfo />,
   },
 ];
