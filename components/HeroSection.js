@@ -8,7 +8,7 @@ const HeroSection = () => {
       className="bg-[url('/images/main-picture1.jpg')] bg-no-repeat  bg-contain bg-center xl:bg-left relative bg-slate-200"
       fetchPriority='high'
     >
-      <Snowfall color='white' snowflakeCount={100} />
+      <Snowfall color='white' snowflakeCount={100} style={{ zIndex: 10 }} />
       <div className='absolute bottom-0  w-full  bg-slate-200 xl:top-1/5 xl:right-1/4 xl:w-[25rem] xl:h-full text-center text-3xl xl:text-6xl p-4 pt-0 xl:pt-14 '>
         <p>
           Pokojné Vianočné sviatky Vám želá <br />
