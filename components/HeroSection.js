@@ -3,10 +3,10 @@ import QuickLinksSidebar from './QuickLinksSidebar';
 const HeroSection = () => {
   return (
     <div
-      className="bg-[url('/images/main-picture1.jpg')] bg-no-repeat  bg-cover md:bg-contain bg-center xl:bg-left relative bg-slate-200"
+      className="bg-[url('/images/main-picture1.jpg')] bg-no-repeat  bg-contain bg-center xl:bg-left relative bg-slate-200"
       fetchPriority='high'
     >
-      <div className='absolute bottom-0  w-full  bg-slate-200 xl:top-1/5 xl:right-1/4 xl:w-[25rem] xl:h-full text-center text-3xl xl:text-6xl p-4 xl:pt-14 '>
+      <div className='absolute bottom-0  w-full  bg-slate-200 xl:top-1/5 xl:right-1/4 xl:w-[25rem] xl:h-full text-center text-3xl xl:text-6xl p-4 pt-0 xl:pt-14 '>
         <p>
           Pokojné Vianočné sviatky Vám želá <br />
           Ballet point
