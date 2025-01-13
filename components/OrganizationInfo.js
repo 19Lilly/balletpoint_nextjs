@@ -1,20 +1,14 @@
 const OrganizationInfo = () => {
   return (
     <>
-      <p className='md:w-[80ch] text-pretty'>
-        Nových žiakov ballet pointu v MČ Lamač zaradíme do vyučovania budúci
-        týždeň. Momentálne prebiehajú skúšky choreografií na plánované
-        vystúpenia. V ballet pointe v MČ Podunajské Biskupice začínajú hodiny od
-        októbra 2024.
-      </p>
+      
       <p className='md:w-[80ch] text-left'>
-        Priniesť si treba:
+       Na hodiny si treba priniesť:
         <ul className='ml-20 list-image-[url(/images/ballet.png)] flex flex-col gap-4 my-6'>
           <li>Cvičky bielej farby</li>
           <li>Pančušky bielej farby</li>
           <li>
-            Dres - budeme kupovať spoločne po ustálení zápisov. Zatiaľ stačí
-            Legins + krátke tričko
+            Dres 
           </li>
           <li>Taška</li>
           <li>Vreckovky</li>
