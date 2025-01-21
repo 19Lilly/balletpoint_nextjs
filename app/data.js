@@ -196,7 +196,19 @@ const galleryData = [
 ];
 
 const eventsData = [
-    {
+  {
+    id: uuid(),
+    date: '9.3.2025',
+    time: '17:00',
+    title: 'Koncert žiakov Ballet pointu',
+    place: 'Kino Lamač, Malokarpatské námestie3',
+    url: 'events/KoncertZiakovMarec2025',
+    img: '/images/koncert_ziakov_marec2025.jpg',
+    participate: ['MČ Podunajské Biskupice', 'MČ Lamač'],
+    active: true,
+    targetBlank: false,
+  },
+  {
     id: uuid(),
     date: 'jar 2025',
     time: 'upresníme',
@@ -205,7 +217,8 @@ const eventsData = [
     url: 'https://www.karlovaves.sk/festival-vodnikov/',
     img: '/images/festival_vodnikov_09_2024.png',
     participate: ['Classic 3'],
-    active: true
+    active: true,
+    targetBlank: true,
   },
   {
     id: uuid(),
@@ -217,9 +230,9 @@ const eventsData = [
     urlGallery: '/gallery/RozalskeHody',
     img: '/images/rozalske-hody-2024.webp',
     participate: ['Classic 1, Classic 2, Classic 3'],
-    active: false
+    active: false,
+    targetBlank: false,
   },
-
 ];
 
 const contactData = [

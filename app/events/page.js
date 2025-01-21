@@ -16,7 +16,7 @@ const Events = () => {
       </p>
 
       {eventsData.map(
-        ({ id, date, time, title, place, url, img, participate, active, urlGallery }) => {
+        ({ id, date, time, title, place, url, img, participate, active, urlGallery, targetBlank }) => {
           return (
             <div
               key={id}
@@ -49,10 +49,10 @@ const Events = () => {
                 </p>
                 <a
                   href={active ? url : urlGallery}
-                  target='_blank'
+                  target={targetBlank ? '_blank' : ''}
                   className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-fuchsia-600 hover:border-fuchsia-600'
                 >
-                  {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'}{' '}
+                  {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'}
                   <FaArrowRight />
                 </a>
               </div>

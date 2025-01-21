@@ -23,7 +23,7 @@ const HeroSection = () => {
           </button>
           <p className='text-center'>
             Dňa 24.1.2025 sa hodiny Ballet pointu neuskutočnia z dôvodu dňa
-            otvorených dverí na tanečnom konzervatóriu Evy Jaczovej
+            otvorených dverí na Tanečnom konzervatóriu Evy Jaczovej
           </p>
           <a
             href='https://www.tankonba.sk/'
