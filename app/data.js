@@ -204,7 +204,7 @@ const eventsData = [
     place: 'Kino Lamač, Malokarpatské námestie3',
     url: 'events/KoncertZiakovMarec2025',
     img: '/images/koncert_ziakov_marec2025.jpg',
-    participate: ['MČ Podunajské Biskupice', 'MČ Lamač'],
+    participate: ['MČ Podunajské Biskupice, MČ Lamač'],
     active: true,
     targetBlank: false,
   },
