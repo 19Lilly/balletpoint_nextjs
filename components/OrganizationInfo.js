@@ -1,7 +1,6 @@
 const OrganizationInfo = () => {
   return (
     <>
-      
       <p className='md:w-[80ch] text-left'>
        Na hodiny si treba priniesť:
         <ul className='ml-20 list-image-[url(/images/ballet.png)] flex flex-col gap-4 my-6'>
