@@ -16,7 +16,7 @@ const SingleGallery = ({ params }) => {
   );
 
   const imgs = numbers.map(number => ({
-    src: `/images/${url}_${number}.jpg`,
+    src: `/images/${url}/${url}_${number}.jpg`,
   }));
 
   return (
