@@ -193,6 +193,12 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
     ],
   },
+  {
+    id: uuid(),
+    title: 'DOD 2025 - Tanečné konzervatórium Evy Jaczovej',
+    url: 'DOD_TKEJ_2025',
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  },
 ];
 
 const eventsData = [
