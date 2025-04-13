@@ -22,10 +22,10 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2 bg-yellow-400 text-white  flex flex-col items-cente justify-center'>
         <p>Classic 1</p>
-        <p>Klasický tanec</p>
+        <p>Gymnastika</p>
       </div>
       <div className='p-2 bg-rose-600 text-white  flex flex-col items-center justify-center'>
-        <p>Classic 3</p>
+        <p>Classic 2 + Classic 3</p>
         <p>Contemporary class</p>
       </div>
       <div className='p-2'></div>
@@ -39,7 +39,7 @@ const DesktopTimeTable = ({ className }) => {
         <p>P. Biskupice</p>
       </div>
       <div className='p-2 bg-lime-600 text-white flex flex-col items-center '>
-        <p>Classic 2</p>
+        <p>Classic 1 + Classic 2</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2'></div>
