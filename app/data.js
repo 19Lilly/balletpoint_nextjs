@@ -90,8 +90,8 @@ const infoData = [
 const quicklinks = [
   {
     id: uuid(),
-    title: 'Zápis 2024/2025',
-    href: '/registration',
+    title: 'Denný letný tábor 2025',
+    href: '/summerCamp2025',
   },
   {
     id: uuid(),
