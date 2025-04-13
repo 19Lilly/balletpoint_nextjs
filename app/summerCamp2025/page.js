@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import poster from '/public/images/dennyLetnyTabor2025.jpg';
 
+
 export const metadata = {
   title: 'Denný letný tábor 2025',
 };
@@ -11,7 +12,8 @@ const SummerCamp2025 = () => {
     <div className='main-container'>
       <h1>Ballet point - denný letný tábor 2025</h1>
       <p className='md:w-[80ch] text-pretty'>
-       Formulár pre zápis do denného letného tábora na vyžiadanie na emailovej adrese:
+        Formulár pre zápis do denného letného tábora na vyžiadanie na emailovej
+        adrese:
         <a
           href='mailto:info@balletpoint.sk'
           className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
@@ -27,6 +29,11 @@ const SummerCamp2025 = () => {
         </a>
         .
       </p>
+
+      <video controls autoPlay muted loop height={500}>
+        <source src='/videos/balletPointHighlights.mp4' type='video/mp4' />
+        Your browser does not support the video tag.
+      </video>
 
       <div className='main-container flex items-center justify-center mx-auto'>
         <Image
