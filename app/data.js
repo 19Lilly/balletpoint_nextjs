@@ -155,7 +155,7 @@ const galleryData = [
     id: uuid(),
     title: 'Naše hodiny',
     url: 'ourClasses',
-    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   },
   {
     id: uuid(),
@@ -198,6 +198,15 @@ const galleryData = [
     title: 'DOD 2025 - Tanečné konzervatórium Evy Jaczovej',
     url: 'DOD_TKEJ_2025',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8],
+  },
+  {
+    id: uuid(),
+    title: 'Koncert Ballet point - marec 2025',
+    url: 'concertBalletPoint_March2025',
+    numbers: [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22,
+    ],
   },
 ];
 
