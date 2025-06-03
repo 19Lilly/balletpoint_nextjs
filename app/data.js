@@ -213,6 +213,19 @@ const galleryData = [
 const eventsData = [
   {
     id: uuid(),
+    date: '29.6.2025',
+    time: '17:00',
+    title: 'Koncert žiakov Ballet pointu',
+    place: 'Kino Lamač, Malokarpatské námestie3',
+    url: 'events/KoncertZiakovMarec2025',
+    urlGallery: '/gallery/concertBalletPoint_March2025',
+    img: '/images/koncert_ziakov_jun2025.jpg',
+    participate: ['MČ Podunajské Biskupice, MČ Lamač'],
+    active: true,
+    targetBlank: false,
+  },
+  {
+    id: uuid(),
     date: '9.3.2025',
     time: '17:00',
     title: 'Koncert žiakov Ballet pointu',
