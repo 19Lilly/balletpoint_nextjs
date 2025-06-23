@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import Logo from './Logo';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
+import poster from '/public/images/koncert_ziakov_jun2025.jpg';
 
 const PopUp = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -10,19 +12,31 @@ const PopUp = () => {
   return (
     <>
       {isOpen && (
-        <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-10'>
-          <div className='bg-white p-10 m-10 rounded-xl shadow-lg w-[min(50rem,90%)] relative text-center text-xl md:text-3xl flex flex-col items-center gap-5'>
+        <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-10 h-screen'>
+          <div className='bg-white p-10 m-10 rounded-xl shadow-lg w-[min(18rem,90%)] relative text-center text-xl md:text-3xl flex flex-col items-center gap-5'>
             <button
-              className='absolute right-6 top-6 hover:text-fuchsia-600'
+              className='absolute right-6 top-8 hover:text-fuchsia-600'
               onClick={() => setIsOpen(false)}
             >
               <IoClose />
             </button>
 
-            <Logo className='w-1/2 md:w-1/3' />
+            <Logo />
 
-            <div className='my-4 space-y-8'>
-              <p>Dňa 9.5.2025 hodiny baletu nebudú.</p>
+            <div className='my-4 space-y-6'>
+              <p>Ballet point vás srdečne pozýva</p>
+              <Image
+                src={poster}
+                width={700}
+                height={500}
+                alt='Plagát s informáciami o koncerte žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice 29.6.2025'
+              />
+              <Link
+                href={`/events/KoncertZiakovJun2025`}
+                className='mt-4 flex items-end hover:text-fuchsia-600'
+              >
+                <FaArrowRight></FaArrowRight>
+              </Link>
             </div>
           </div>
         </div>
