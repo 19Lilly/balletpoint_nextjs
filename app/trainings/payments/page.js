@@ -34,7 +34,7 @@ const Payments = () => {
         <img
           src='/images/payBySquare.jpg'
           alt='pay by square image'
-          className='aspect-square size-28 mt-4'
+          className='aspect-square size-28 mt-4 mx-auto md:mx-0'
         />
         <p className='text-pretty md:w-[80ch] mt-4'>
           Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu
