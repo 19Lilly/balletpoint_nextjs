@@ -31,6 +31,11 @@ const Payments = () => {
             <CopyToClipboard />
           </div>
         </p>
+        <img
+          src='/images/payBySquare.jpg'
+          alt='pay by square image'
+          className='aspect-square size-28 mt-4'
+        />
         <p className='text-pretty md:w-[80ch] mt-4'>
           Do poznámky k platbe prosím uviesť meno a priezvisko dieťaťa, skupinu
           a za ktoré mesiace je daná platba napr. Janko Mrkvička, C1, september
