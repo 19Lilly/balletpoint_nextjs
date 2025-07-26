@@ -77,6 +77,24 @@ const trainingsNavData = [
   },
 ];
 
+const summerCamp2025Data = [
+  {
+    id: uuid(),
+    name: 'Denný letný tábor 2025',
+    url: '/summerCamp2025',
+  },
+  {
+    id: uuid(),
+    name: 'Inštrukcie',
+    url: '/summerCamp2025/instructions',
+  },
+  {
+    id: uuid(),
+    name: 'Denný rozvrh',
+    url: '/summerCamp2025/dailySchedule',
+  },
+];
+
 const infoData = [
   {
     id: uuid(),
@@ -290,6 +308,7 @@ export {
   navigation,
   aboutNavData,
   trainingsNavData,
+  summerCamp2025Data,
   quicklinks,
   groupsData,
   infoData,
