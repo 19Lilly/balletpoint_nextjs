@@ -8,16 +8,16 @@ export const metadata = {
 
 const Instructions = () => { 
     return (
-        <div className='main-container'>
-        <h1>Inštrukcie - denný tábor</h1>
-        
-         <Image
-                  src={InstructionsImage}
-                  width={700}
-                  height={500}
-                  alt='Plagát s inštrukciami pre denný letný tábor 2025'
-                />
-        </div>
+      <div className='main-container'>
+        <h1>Inštrukcie</h1>
+
+        <Image
+          src={InstructionsImage}
+          width={700}
+          height={500}
+          alt='Plagát s inštrukciami pre denný letný tábor 2025'
+        />
+      </div>
     );
 }
 

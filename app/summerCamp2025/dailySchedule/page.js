@@ -5,7 +5,7 @@ import InstructionsImage from '/public/images/instructionsImage1.jpg';
 const dailySchedule = () => {
   return (
     <div className='main-container'>
-      <h1>Denný rozvrh - denný tábor</h1>
+      <h1>Denný rozvrh</h1>
 
       <Image
         src={InstructionsImage}
