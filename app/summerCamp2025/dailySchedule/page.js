@@ -6,9 +6,7 @@ const dailySchedule = () => {
   return (
     <div className='main-container'>
       <h1>Denný rozvrh - denný tábor</h1>
-      <p className='text-pretty'>
-        Tu nájdete denný rozvrh aktivít pre Denný letný tábor 2025.
-      </p>
+
       <Image
         src={InstructionsImage}
         width={700}
