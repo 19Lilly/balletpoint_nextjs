@@ -13,7 +13,7 @@ const PopUp = () => {
     <>
       {isOpen && (
         <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-10 h-screen'>
-          <div className='bg-white p-10 m-10 rounded-xl shadow-lg w-[min(18rem,90%)] relative text-center text-xl md:text-3xl flex flex-col items-center gap-5'>
+          <div className='bg-white p-10 m-10 rounded-xl shadow-lg w-[min(22rem,90%)] relative text-center text-xl md:text-3xl flex flex-col items-center gap-5'>
             <button
               className='absolute right-6 top-8 hover:text-fuchsia-600'
               onClick={() => setIsOpen(false)}
@@ -24,18 +24,16 @@ const PopUp = () => {
             <Logo />
 
             <div className='my-4 space-y-6'>
-              <p>Ballet point vás srdečne pozýva</p>
-              <Image
-                src={poster}
-                width={700}
-                height={500}
-                alt='Plagát s informáciami o koncerte žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice 29.6.2025'
-              />
+              <h1 className='text-2xl md:text-3xl'>Tréningy pred vystúpením</h1>
+              <p>
+                Tréningy pred vystúpením sa uskutočnia v dňoch 27. a 28. augusta
+                2025 v časoch podľa piatkového rozvrhu.
+              </p>
               <Link
-                href={`/events/KoncertZiakovJun2025`}
-                className='mt-4 flex items-end hover:text-fuchsia-600'
+                href='/trainings/timeSchedule'
+                className='flex items-center justify-center gap-2 hover:text-fuchsia-600'
               >
-                <FaArrowRight></FaArrowRight>
+                rozvrh <FaArrowRight />
               </Link>
             </div>
           </div>
