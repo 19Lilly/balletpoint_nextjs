@@ -226,6 +226,15 @@ const galleryData = [
       22,
     ],
   },
+  {
+    id: uuid(),
+    title: 'Ballet point - Letný tábor 2025',
+    url: 'balletPoint_SummerCamp2025',
+    numbers: [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24,
+    ],
+  },
 ];
 
 const eventsData = [
