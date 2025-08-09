@@ -1,30 +1,45 @@
 import React, { useId } from 'react';
-import { groupsData } from '../data';
+
+import OrganizationInfo from '@/components/OrganizationInfo';
 
 export const metadata = {
-  title: 'Tréningy - rozdelenie do skupín',
+  title: 'Tréningy - informácie šk.rok 2025/2026',
 };
 
 const Trainings = () => {
   return (
     <div className='main-container'>
-      <h1>Skupiny</h1>
-      <p className='text-pretty md:w-[80ch]'>
-        Rozdelenie do skupín má len informačný charakter. Zápis do jednotlivých
-        skupín prebieha po konzultácii s pedagógom.
+      <h1>Info - školský rok 2025/2026</h1>
+
+      <p className='md:w-[80ch] text-pretty'>
+        Aktuálne prebieha zápis do baletnej školy pre školský rok 2025/2026.
+        Noví žiaci budú prijímaní od 2.9.2025. Pre viac informácii ohľadne
+        prihlášky nás kontaktujte na emailovej adrese:
+        <a
+          href='mailto:info@balletpoint.sk'
+          className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
+        >
+          info@balletpoint.sk
+        </a>
+        alebo na telefónnom čísle:
+        <a
+          href='tel:+421949757911'
+          className='hover:text-fuchsia-600 font-bold underline underline-offset-2 px-2'
+        >
+          +421 949 757 911
+        </a>
+        .
       </p>
-      <div className='w-fit'>
-        {groupsData.map(({ id, name, age }) => {
-          return (
-            <div className='flex gap-6 p-4 items-center border-b-2' key={id}>
-              <h2 className='text-2xl font-bold'>{name}</h2>
-              <p className='self-end'>
-                <span className='font-bold'>Vek: </span> {age}
-              </p>
-            </div>
-          );
-        })}
-      </div>
+
+      <p>
+        Začiatok šk. roka:
+        <ul>
+          <li>Lamač - september 2025</li>
+          <li>ZŠ Podzáhradná - október 2025</li>
+        </ul>
+      </p>
+
+      <OrganizationInfo />
     </div>
   );
 };

@@ -26,7 +26,7 @@ const PopUp = () => {
             <div className='my-4 space-y-6'>
               <h1 className='text-2xl md:text-4xl'>Tréningy pred vystúpením</h1>
               <p>
-                Skúšky pred vystúpením na hody v Lamači 31.8. 2025 a Festival
+                Skúšky pred vystúpením na hody v Lamači 31.8.2025 a Festival
                 vodníkov 7.9.2025 sa uskutočnia v dňoch 27. a 28. augusta 2025 v
                 časoch:
                 <ul className='pt-4'>

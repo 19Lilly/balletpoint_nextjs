@@ -57,8 +57,13 @@ const aboutNavData = [
 const trainingsNavData = [
   {
     id: uuid(),
-    name: 'Skupiny',
+    name: 'Info',
     url: '/trainings',
+  },
+  {
+    id: uuid(),
+    name: 'Skupiny',
+    url: '/trainings/groups',
   },
   {
     id: uuid(),
@@ -69,11 +74,6 @@ const trainingsNavData = [
     id: uuid(),
     name: 'Platby',
     url: '/trainings/payments',
-  },
-  {
-    id: uuid(),
-    name: 'Info',
-    url: '/trainings/info',
   },
 ];
 
@@ -108,8 +108,8 @@ const infoData = [
 const quicklinks = [
   {
     id: uuid(),
-    title: 'Info',
-    href: '/trainings/info',
+    title: 'Zápis šk.rok 2025/2026',
+    href: '/trainings',
   },
   {
     id: uuid(),
