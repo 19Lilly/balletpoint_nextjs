@@ -24,17 +24,23 @@ const PopUp = () => {
             <Logo />
 
             <div className='my-4 space-y-6'>
-              <h1 className='text-2xl md:text-3xl'>Tréningy pred vystúpením</h1>
+              <h1 className='text-2xl md:text-4xl'>Tréningy pred vystúpením</h1>
               <p>
-                Tréningy pred vystúpením sa uskutočnia v dňoch 27. a 28. augusta
-                2025 v časoch podľa piatkového rozvrhu.
+                Skúšky pred vystúpením na hody v Lamači 31.8. 2025 a Festival
+                vodníkov 7.9.2025 sa uskutočnia v dňoch 27. a 28. augusta 2025 v
+                časoch:
+                <ul className='pt-4'>
+                  <li>
+                    <span className='font-bold'>C1: </span>15:30 - 16:30
+                  </li>
+                  <li>
+                    <span className='font-bold'>C2: </span>16:40 - 17:40
+                  </li>
+                  <li>
+                    <span className='font-bold'>C3: </span>17:45 - 18:45
+                  </li>
+                </ul>
               </p>
-              <Link
-                href='/trainings/timeSchedule'
-                className='flex items-center justify-center gap-2 hover:text-fuchsia-600'
-              >
-                rozvrh <FaArrowRight />
-              </Link>
             </div>
           </div>
         </div>

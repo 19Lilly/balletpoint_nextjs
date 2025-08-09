@@ -19,6 +19,11 @@ const Payments = () => {
         <span className='font-bold'>2 hodiny/týždeň: </span>
         60€/mesiac
       </p>
+      <p className=' self-start md:w-[80ch]'>
+        <span className='font-bold'>3 hodiny/týždeň: </span>
+        75€/mesiac
+      </p>
+
       <p className='self-start md:w-[80ch]'>
         <span className='font-bold'>Zľava súrodenec: </span>
         5€/mesiac

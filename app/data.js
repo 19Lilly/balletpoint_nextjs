@@ -108,11 +108,6 @@ const infoData = [
 const quicklinks = [
   {
     id: uuid(),
-    title: 'Denný letný tábor 2025',
-    href: '/summerCamp2025',
-  },
-  {
-    id: uuid(),
     title: 'Info',
     href: '/trainings/info',
   },
@@ -120,6 +115,11 @@ const quicklinks = [
     id: uuid(),
     title: 'Galéria',
     href: '/gallery',
+  },
+  {
+    id: uuid(),
+    title: 'Podujatia',
+    href: '/events',
   },
 ];
 
@@ -146,25 +146,25 @@ const platby = [
     id: uuid(),
     name: '1.platba',
     months: 'September + Október',
-    dueDate: '3.9.2024',
+    dueDate: '1.9.2025',
   },
   {
     id: uuid(),
     name: '2.platba',
     months: 'November + December + Január',
-    dueDate: '5.11.2024',
+    dueDate: '1.11.2025',
   },
   {
     id: uuid(),
     name: '3.platba',
     months: 'Február + Marec + Apríl',
-    dueDate: '4.2.2025',
+    dueDate: '1.2.2026',
   },
   {
     id: uuid(),
     name: '4.platba',
     months: 'Máj + Jún',
-    dueDate: '2.5.2025',
+    dueDate: '1.5.2026',
   },
 ];
 
