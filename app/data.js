@@ -95,21 +95,12 @@ const summerCamp2025Data = [
   },
 ];
 
-const infoData = [
-  {
-    id: uuid(),
-    date: '6.9.2024',
-    title: 'Organizácia hodín Ballet pointu',
-    url: 'organization-info-ballet-point',
-    component: <OrganizationInfo />,
-  },
-];
 
 const quicklinks = [
   {
     id: uuid(),
     title: 'Zápis šk.rok 2025/2026',
-    href: '/trainings',
+    href: '/registration',
   },
   {
     id: uuid(),
@@ -132,12 +123,12 @@ const groupsData = [
   {
     id: uuid(),
     name: 'Classic 2',
-    age: '6-7 rokov',
+    age: '7-8 rokov',
   },
   {
     id: uuid(),
     name: 'Classic 3',
-    age: '8-12 rokov',
+    age: '9-13 rokov',
   },
 ];
 
@@ -269,7 +260,7 @@ const eventsData = [
     title: 'Rozálske hody 2025',
     place: 'Malokarpatské námestie, Lamač',
     url: 'https://www.lamac.sk/novinky/rozalske-hody-2025',
-    // urlGallery: '/gallery/RozalskeHody',
+    // urlGallery: '/gallery/RozalskeHody2025',
     img: '/images/rozalske-hody-2025.jpg',
     participate: ['Classic 1, Classic 2, Classic 3'],
     active: true,
@@ -346,7 +337,6 @@ export {
   summerCamp2025Data,
   quicklinks,
   groupsData,
-  infoData,
   platby,
   galleryData,
   eventsData,

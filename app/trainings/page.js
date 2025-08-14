@@ -11,7 +11,7 @@ const Trainings = () => {
     <div className='main-container'>
       <h1>Info - školský rok 2025/2026</h1>
 
-      <p className='md:w-[80ch] text-pretty'>
+      {/* <p className='md:w-[80ch] text-pretty'>
         Aktuálne prebieha zápis do baletnej školy pre školský rok 2025/2026.
         Noví žiaci budú prijímaní od 2.9.2025. Pre viac informácii ohľadne
         prihlášky nás kontaktujte na emailovej adrese:
@@ -29,15 +29,13 @@ const Trainings = () => {
           +421 949 757 911
         </a>
         .
-      </p>
+      </p> */}
 
-      <p>
-        Začiatok šk. roka:
-        <ul>
-          <li>Lamač - september 2025</li>
-          <li>ZŠ Podzáhradná - október 2025</li>
-        </ul>
-      </p>
+      <p className='font-bold'>Začiatok šk. roka: </p>
+      <ul>
+        <li>Lamač - september 2025</li>
+        <li>ZŠ Podzáhradná - október 2025</li>
+      </ul>
 
       <OrganizationInfo />
     </div>

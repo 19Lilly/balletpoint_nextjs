@@ -1,17 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import poster from '/public/images/zapis.jpg';
+import poster from '/public/images/zapis_25_26.jpg';
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export const metadata = {
-  title: 'Zápis v školskokm roku 2024/2025',
+  title: 'Zápis v školskokm roku 2025/2026',
 };
 
 const Registration = () => {
   return (
     <div className='main-container'>
-      <h1>Zápis v školskom roku 2024/2025</h1>
+      <h1>Zápis v školskom roku 2025/2026</h1>
       <p className='md:w-[80ch] text-pretty'>
-        Aktuálne prebieha zápis do baletnej školy pre školský rok 2024/2025. Pre
+        Aktuálne prebieha zápis do baletnej školy pre školský rok 2025/2026. Pre
         viac informácii ohľadne prihlášky nás kontaktujte na emailovej adrese:
         <a
           href='mailto:info@balletpoint.sk'
@@ -34,9 +36,15 @@ const Registration = () => {
           src={poster}
           width={700}
           height={500}
-          alt='Plagát s informáciami o zápise do baletnej školy pre školský rok 2024/2025'
+          alt='Plagát s informáciami o zápise do baletnej školy pre školský rok 2025/2026'
         />
       </div>
+      <Link
+        href='/trainings'
+        className='flex gap-2 items-center justify-center hover:text-fuchsia-600 hover:border-fuchsia-600 border-2 rounded-full py-2 px-6'
+      >
+        Viac info <ArrowRight />
+      </Link>
     </div>
   );
 };
