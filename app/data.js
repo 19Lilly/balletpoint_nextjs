@@ -136,25 +136,25 @@ const platby = [
   {
     id: uuid(),
     name: '1.platba',
-    months: 'September + Október',
+    months: ['Lamač: September + Október', 'Podunajské Biskupice: Október'],
     dueDate: ['Lamač: 1.9.2025', 'Podunajské Biskupice: 1.10.2025'],
   },
   {
     id: uuid(),
     name: '2.platba',
-    months: 'November + December + Január',
+    months: ['November + December + Január'],
     dueDate: ['1.11.2025'],
   },
   {
     id: uuid(),
     name: '3.platba',
-    months: 'Február + Marec + Apríl',
+    months: ['Február + Marec + Apríl'],
     dueDate: ['1.2.2026'],
   },
   {
     id: uuid(),
     name: '4.platba',
-    months: 'Máj + Jún',
+    months: ['Máj + Jún'],
     dueDate: ['1.5.2026'],
   },
 ];

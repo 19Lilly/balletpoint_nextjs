@@ -1,6 +1,7 @@
 import React from 'react';
 import { platby } from '@/app/data';
 import CopyToClipboard from '@/components/CopyToClipboard';
+import { v4 as uuid } from 'uuid';
 
 export const metadata = {
   title: 'Platby',
@@ -31,10 +32,10 @@ const Payments = () => {
       <div>
         <p className='text-left md:w-[80ch] flex flex-col md:flex-row gap-2'>
           <span className='font-bold'>IBAN: </span>
-          <div className='flex gap-2'>
+          <span className='flex gap-2'>
             SK23 0900 0000 0052 1937 5395
             <CopyToClipboard />
-          </div>
+          </span>
         </p>
         <img
           src='/images/payBySquare.jpg'
@@ -53,17 +54,18 @@ const Payments = () => {
           return (
             <li className='flex gap-4 border-b-2 p-2' key={id}>
               <h3 className='font-bold text-xl'>{name}</h3>
-              <div className='text-left'>
-                <p className='md:w-[80ch]'>{months}</p>
-                <p className='md:w-[80ch]'>
-                  <span className='font-bold'>Splatnosť:</span>
-                  <ul>
-                    {dueDate.map(item => {
-                      return <li>{item}</li>;
-                    })}
-                  </ul>
-                </p>
-              </div>
+
+              <ul className='md:w-[80ch]text-left flex flex-col '>
+                {months.map(month => {
+                  return <li key={uuid()}>{month}</li>;
+                })}
+
+                <span className='font-bold'>Splatnosť:</span>
+
+                {dueDate.map(item => {
+                  return <li key={uuid()}>{item}</li>;
+                })}
+              </ul>
             </li>
           );
         })}
