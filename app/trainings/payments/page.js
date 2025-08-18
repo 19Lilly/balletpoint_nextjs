@@ -56,7 +56,12 @@ const Payments = () => {
               <div className='text-left'>
                 <p className='md:w-[80ch]'>{months}</p>
                 <p className='md:w-[80ch]'>
-                  <span className='font-bold'>Splatnosť:</span> {dueDate}
+                  <span className='font-bold'>Splatnosť:</span>
+                  <ul>
+                    {dueDate.map(item => {
+                      return <li>{item}</li>;
+                    })}
+                  </ul>
                 </p>
               </div>
             </li>
