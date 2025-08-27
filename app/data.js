@@ -262,7 +262,7 @@ const eventsData = [
     url: 'https://www.lamac.sk/novinky/rozalske-hody-2025',
     // urlGallery: '/gallery/RozalskeHody2025',
     img: '/images/rozalske-hody-2025.jpg',
-    participate: ['Classic 1, Classic 2, Classic 3'],
+    participate: ['Classic 2, Classic 3'],
     active: true,
     targetBlank: true,
   },
