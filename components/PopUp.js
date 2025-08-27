@@ -23,7 +23,7 @@ const PopUp = () => {
 
             <Logo />
 
-            <div className='my-4 space-y-6 text-2xl md:text-3xl'>
+            <div className='my-4 space-y-6 text-xl md:text-3xl'>
               <h1 className='text-2xl md:text-4xl'>Tréningy pred vystúpením</h1>
               <p>
                 Skúšky pred vystúpením na hody v Lamači 31.8.2025 a Festival
