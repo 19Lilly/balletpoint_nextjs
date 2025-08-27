@@ -13,7 +13,7 @@ const PopUp = () => {
     <>
       {isOpen && (
         <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-10 h-screen'>
-          <div className='bg-white p-6 md:p-10 m-10 rounded-xl shadow-lg w-[min(30rem,98%)] relative text-center flex flex-col items-center gap-5'>
+          <div className='bg-white p-6 md:p-10 m-10 rounded-xl shadow-lg w-[min(30rem,98%)] relative text-center flex flex-col items-center gap-3'>
             <button
               className='absolute right-6 top-8 hover:text-fuchsia-600'
               onClick={() => setIsOpen(false)}
