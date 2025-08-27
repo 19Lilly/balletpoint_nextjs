@@ -14,7 +14,8 @@ const Registration = () => {
       <h1>Zápis v školskom roku 2025/2026</h1>
       <p className='md:w-[80ch] text-pretty'>
         Aktuálne prebieha zápis do baletnej školy pre školský rok 2025/2026. Pre
-        viac informácii ohľadne prihlášky nás kontaktujte na emailovej adrese:
+        viac informácii ohľadne prihlášky alebo skúšobnej hodiny nás kontaktujte
+        na emailovej adrese:
         <a
           href='mailto:info@balletpoint.sk'
           className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
