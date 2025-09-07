@@ -90,14 +90,11 @@ const MobileTimeTable = ({ className }) => {
             <div className='p-2 place-content-center'>18:10 - 19:25</div>
           </div>
           <div className='grid grid-rows-5 divide-y'>
-            <div className='p-2 flex flex-col items-center bg-lime-600 text-white'>
-              <p>Classic 2</p>
+            <div className='p-2 flex flex-col items-center bg-gradient-to-b from-lime-600 to-violet-600 text-white'>
+              <p>Classic 1 + Classic 2</p>
               <p>Klasický tanec</p>
             </div>
-            <div className='p-2 flex flex-col items-ceneter bg-violet-600 text-white'>
-              <p>Classic 1</p>
-              <p>Klasický tanec</p>
-            </div>
+            <div className='p-2'></div>
             <div className='p-2'></div>
             <div className='p-2'></div>
             <div className='p-2'></div>

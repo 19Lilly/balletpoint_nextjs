@@ -46,14 +46,11 @@ const DesktopTimeTable = ({ className }) => {
         <p className='font-bold'>Št</p>
         <p>P. Biskupice</p>
       </div>
-      <div className='p-2 bg-lime-600 text-white flex flex-col items-center '>
-        <p>Classic 2</p>
+      <div className='p-2 bg-gradient-to-b from-lime-600 to-violet-600 text-white flex flex-col items-center '>
+        <p>Classic 1 + Classic 2</p>
         <p>Klasický tanec</p>
       </div>
-      <div className='p-2 bg-violet-600 text-white flex flex-col items-center'>
-        <p>Classic 1</p>
-        <p>Klasický tanec</p>
-      </div>
+      <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2'></div>
