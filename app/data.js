@@ -118,16 +118,21 @@ const groupsData = [
   {
     id: uuid(),
     name: 'Classic 1',
-    age: '4-6 rokov',
+    age: '4-5 rokov',
   },
   {
     id: uuid(),
     name: 'Classic 2',
-    age: '7-8 rokov',
+    age: '5-6 rokov',
   },
   {
     id: uuid(),
     name: 'Classic 3',
+    age: '7-8 rokov',
+  },
+  {
+    id: uuid(),
+    name: 'Classic 4',
     age: '9-13 rokov',
   },
 ];

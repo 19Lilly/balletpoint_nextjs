@@ -24,15 +24,15 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-yellow-400 text-white  flex flex-col items-cente justify-center'>
-        <p>Classic 1</p>
+        <p>Classic 1 + Classic 2</p>
         <p>Klasický tanec + Gymnastika</p>
       </div>
       <div className='p-2 bg-gradient-to-b from-blue-600 to-rose-600 text-white  flex flex-col items-center justify-center'>
-        <p>Classic 2 + Classic 3</p>
+        <p>Classic 3 + Classic 4</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-gradient-to-b from-blue-600 to-rose-600 text-white  flex flex-col items-center justify-center'>
-        <p>Classic 2 + Classic 3</p>
+        <p>Classic 3 + Classic 4</p>
         <p>Contemporary class</p>
       </div>
 
@@ -61,15 +61,15 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-yellow-400 text-white  flex flex-col items-center'>
-        <p>Classic 1</p>
+        <p>Classic 1 + Classic 2</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-blue-600 text-white  flex flex-col items-center'>
-        <p>Classic 2</p>
+        <p>Classic 3</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-rose-600 text-white  flex flex-col items-center'>
-        <p>Classic 3</p>
+        <p>Classic 4</p>
         <p>Klasický tanec</p>
       </div>
     </div>
