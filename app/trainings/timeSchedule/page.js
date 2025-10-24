@@ -20,16 +20,16 @@ const TimeSchedule = () => {
       <DesktopTimeTable className='hidden md:grid' />
       <div className='grid grid-cols-[auto_1fr] gap-3 py-2 text-left self-start'>
         <span className='font-bold'>Classic 1: </span>
-        <p>tanečná príprava</p>
+        <p>Tanečná príprava</p>
 
         <span className='font-bold'>Classic 2: </span>
-        <p>Klasický tanec</p>
+        <p>Základy klasického tanca</p>
 
         <span className='font-bold '>Classic 3: </span>
-        <p>Contemporary class, klasický tanec</p>
+        <p> Klasický tanec, contemporary class</p>
 
         <span className='font-bold '>Classic 4: </span>
-        <p>Contemporary class, klasický tanec</p>
+        <p>Klasický tanec, technika pointes, Contemporary class</p>
       </div>
     </div>
   );
