@@ -55,7 +55,7 @@ const Payments = () => {
             <li className='flex gap-4 border-b-2 p-2' key={id}>
               <h3 className='font-bold text-xl'>{name}</h3>
 
-              <ul className='md:w-[80ch]text-left flex flex-col '>
+              <ul className='md:w-[80ch] md:text-left text-center flex flex-col justify-center items-center  flex-1 '>
                 {months.map(month => {
                   return <li key={uuid()}>{month}</li>;
                 })}
