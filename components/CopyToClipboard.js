@@ -15,7 +15,7 @@ const CopyToClipboard = () => {
   };
   return (
     <button
-      className='flex items-center gap-1 hover:text-fuchsia-600 relative'
+      className='flex items-center gap-1 hover:text-[#cca300] relative'
       onClick={copyToClipboard}
     >
       {isShow && (

@@ -16,14 +16,14 @@ const SummerCamp2025 = () => {
         adrese:
         <a
           href='mailto:info@balletpoint.sk'
-          className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
+          className='font-bold underline underline-offset-2 hover:text-[#cca300] px-2'
         >
           info@balletpoint.sk
         </a>
         alebo na telefónnom čísle:
         <a
           href='tel:+421949757911'
-          className='hover:text-fuchsia-600 font-bold underline underline-offset-2 px-2'
+          className='hover:text-[#cca300] font-bold underline underline-offset-2 px-2'
         >
           +421 949 757 911
         </a>

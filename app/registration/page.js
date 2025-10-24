@@ -18,14 +18,14 @@ const Registration = () => {
         na emailovej adrese:
         <a
           href='mailto:info@balletpoint.sk'
-          className='font-bold underline underline-offset-2 hover:text-fuchsia-600 px-2'
+          className='font-bold underline underline-offset-2 hover:text-[#cca300] px-2'
         >
           info@balletpoint.sk
         </a>
         alebo na telefónnom čísle:
         <a
           href='tel:+421949757911'
-          className='hover:text-fuchsia-600 font-bold underline underline-offset-2 px-2'
+          className='hover:text-[#cca300] font-bold underline underline-offset-2 px-2'
         >
           +421 949 757 911
         </a>
@@ -42,7 +42,7 @@ const Registration = () => {
       </div>
       <Link
         href='/trainings'
-        className='flex gap-2 items-center justify-center hover:text-fuchsia-600 hover:border-fuchsia-600 border-2 rounded-full py-2 px-6'
+        className='flex gap-2 items-center justify-center hover:text-[#cca300] hover:border-[#cca300] border-2 rounded-full py-2 px-6'
       >
         Viac info <ArrowRight />
       </Link>

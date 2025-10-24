@@ -17,7 +17,7 @@ const Gallery = () => {
             <li key={id}>
               <Link
                 href={`/gallery/${url}`}
-                className='grid grid-cols-3 gap-4 border-b-2 p-4 w-[min(30rem,98%)] hover:text-fuchsia-600'
+                className='grid grid-cols-3 gap-4 border-b-2 p-4 w-[min(30rem,98%)] hover:text-[#cca300]'
               >
                 <Image
                   src={`/images/${url}/thumbnail.jpg`}

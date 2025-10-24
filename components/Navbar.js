@@ -29,10 +29,10 @@ const Navbar = () => {
               <Link
                 key={id}
                 href={href}
-                className={`p-4 hover:bg-fuchsia-600 rounded-lg 
+                className={`p-4 hover:bg-[#cca300] rounded-lg 
                     ${
                       pathName.substring(0, 7) === href.substring(0, 7)
-                        ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
+                        ? 'underline underline-offset-4 text-[#cca300] hover:text-white'
                         : null
                     }`}
               >
@@ -53,10 +53,10 @@ const Navbar = () => {
                   key={id}
                   onClick={() => setNav(!nav)}
                   href={href}
-                  className={`p-2 cursor-pointer text-xl w-full rounded-lg hover:bg-fuchsia-600
+                  className={`p-2 cursor-pointer text-xl w-full rounded-lg hover:bg-[#cca300 ]
                     ${
                       pathName.substring(0, 7) === href.substring(0, 7)
-                        ? 'underline underline-offset-4 text-fuchsia-600 hover:text-white'
+                        ? 'underline underline-offset-4 text-[#cca300 ] hover:text-white'
                         : null
                     }`}
                 >

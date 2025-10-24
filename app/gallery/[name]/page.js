@@ -22,12 +22,10 @@ const SingleGallery = ({ params }) => {
   return (
     <div className='main-container relative'>
       <h2 className='flex flex-wrap justify-between w-full'>
-        <span className='text-5xl font-bold text-fuchsia-600 py-4'>
-          {title}
-        </span>
+        <span className='text-5xl font-bold text--[#cca300] py-4'>{title}</span>
         <Link
           href='/gallery'
-          className='hover:text-fuchsia-600 hover:scale-110 flex items-center gap-2 '
+          className='hover:text-[#cca300]hover:scale-110 flex items-center gap-2 '
         >
           <TiArrowBackOutline />
           Späť na zoznam

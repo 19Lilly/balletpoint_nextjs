@@ -14,6 +14,7 @@ const Footer = () => {
           href='https://www.linkedin.com/in/rozvita-%C5%A1tiglinc/'
           rel='noopener noreferrer'
           target='_blank'
+          className='hover:text-[#cca300]'
         >
           Lilly
         </Link>
