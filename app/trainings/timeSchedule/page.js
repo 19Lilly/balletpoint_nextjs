@@ -23,7 +23,7 @@ const TimeSchedule = () => {
         <p>tanečná príprava</p>
 
         <span className='font-bold'>Classic 2: </span>
-        <p>Contemporary class, klasický tanec</p>
+        <p>Klasický tanec</p>
 
         <span className='font-bold '>Classic 3: </span>
         <p>Contemporary class, klasický tanec</p>
