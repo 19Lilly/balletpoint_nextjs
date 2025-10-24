@@ -27,6 +27,9 @@ const TimeSchedule = () => {
 
         <span className='font-bold '>Classic 3: </span>
         <p>Contemporary class, klasický tanec</p>
+
+        <span className='font-bold '>Classic 4: </span>
+        <p>Contemporary class, klasický tanec</p>
       </div>
     </div>
   );
