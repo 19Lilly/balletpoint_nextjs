@@ -50,7 +50,7 @@ const Events = () => {
                 <a
                   href={active ? url : urlGallery}
                   target={targetBlank ? '_blank' : ''}
-                  className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-fuchsia-600 hover:border-fuchsia-600'
+                  className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-[#cca300] hover:border-[#cca300]'
                 >
                   {active ? 'Viac o akcii' : 'Pozrieť fotogalériu z akcie'}
                   <FaArrowRight />
