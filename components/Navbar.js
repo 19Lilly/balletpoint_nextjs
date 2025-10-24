@@ -18,10 +18,10 @@ const Navbar = () => {
 
   return (
     <div className='bg-zinc-950 text-white text-xl'>
-      <nav className=' flex justify-between items-center p-4 md:p-2  gap-4  max-w-7xl mx-auto w-full relative'>
+      <nav className=' flex justify-between items-center p-4 md:p-0  gap-4  max-w-7xl mx-auto w-full relative'>
         <Link href='/' className='flex flex-col items-start'>
           {/* <Logo /> */}
-          <Image src={Logo} className='size-[200px]'/>
+          <Image src={Logo} className='size-[100px]' />
         </Link>
         <div className='hidden lg:flex gap-4 '>
           {navigation.map(({ id, href, SK }) => {
