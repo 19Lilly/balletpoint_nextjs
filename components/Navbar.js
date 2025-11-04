@@ -21,7 +21,10 @@ const Navbar = () => {
       <nav className=' flex justify-between items-center p-4 md:p-0  gap-4  max-w-7xl mx-auto w-full relative'>
         <Link href='/' className='flex flex-col items-start'>
           {/* <Logo /> */}
-          <Image src={Logo} className='size-[100px]' />
+          <Image
+            src={Logo}
+            className='size-[100px] hover:shadow-xl hover:shadow-[#cca300]'
+          />
         </Link>
         <div className='hidden lg:flex gap-4 '>
           {navigation.map(({ id, href, SK }) => {
