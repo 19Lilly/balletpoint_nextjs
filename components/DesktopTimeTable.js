@@ -23,7 +23,7 @@ const DesktopTimeTable = ({ className }) => {
       </div>
       <div className='p-2'></div>
       <div className='p-2'></div>
-      <div className='p-2 bg-yellow-400 text-white  flex flex-col items-cente justify-center'>
+      <div className='p-2 bg-gradient-to-b from-yellow-400 to-fuchsia-600 text-white  flex flex-col items-center justify-center'>
         <p>Classic 1 + Classic 2</p>
         <p>Klasický tanec + Gymnastika</p>
       </div>
@@ -39,7 +39,10 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2  font-bold'>Str</div>
       <div className='p-2'></div>
       <div className='p-2'></div>
-      <div className='p-2'></div>
+      <div className='p-2 bg-fuchsia-600 text-white flex flex-col items-center justify-center '>
+        <p>Classic 1</p>
+        <p>Klasický tanec</p>
+      </div>
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 flex flex-col items-center '>
@@ -61,7 +64,7 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-yellow-400 text-white  flex flex-col items-center'>
-        <p>Classic 1 + Classic 2</p>
+        <p>Classic 2</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-blue-600 text-white  flex flex-col items-center'>

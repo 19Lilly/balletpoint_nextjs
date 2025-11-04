@@ -40,7 +40,7 @@ const MobileTimeTable = ({ className }) => {
           <div className='grid grid-rows-5 divide-y'>
             <div className='p-2'></div>
             <div className='p-2'></div>
-            <div className='p-2 flex flex-col items-center bg-yellow-400 text-white'>
+            <div className='p-2 flex flex-col items-center bg-gradient-to-b from-yellow-400 to-fuchsia-600 text-white'>
               <p>Classic 1 + Classic 2</p>
               <p>Klasický tanec + Gymnastika</p>
             </div>
@@ -69,7 +69,10 @@ const MobileTimeTable = ({ className }) => {
           </div>
           <div className='grid grid-rows-5 divide-y'>
             <div className='p-2'></div>
-            <div className='p-2'></div>
+            <div className='p-2 flex flex-col items-center bg-fuchsia-600 text-white'>
+              <p>Classic 1</p>
+              <p>Klasický tanec</p>
+            </div>
             <div className='p-2'></div>
             <div className='p-2'></div>
             <div className='p-2'></div>
@@ -118,7 +121,7 @@ const MobileTimeTable = ({ className }) => {
             <div className='p-2'></div>
             <div className='p-2'></div>
             <div className='p-2 flex flex-col items-center bg-yellow-400 text-white'>
-              <p>Classic 1 + Classic 2</p>
+              <p>Classic 2</p>
               <p>Klasický tanec</p>
             </div>
             <div className='p-2 flex flex-col items-center bg-blue-600 text-white'>
