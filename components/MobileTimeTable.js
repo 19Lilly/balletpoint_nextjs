@@ -74,7 +74,6 @@ const MobileTimeTable = ({ className }) => {
               <p>Classic 1</p>
               <p>Tanečná príprava</p>
             </div>
-
             <div className='p-2'></div>
             <div className='p-2'></div>
           </div>
