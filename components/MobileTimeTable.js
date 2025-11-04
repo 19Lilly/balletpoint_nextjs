@@ -60,7 +60,7 @@ const MobileTimeTable = ({ className }) => {
           <p className='font-bold text-3xl'>Streda</p>
         </div>
         <div className='grid grid-cols-[auto_1fr] border divide-x '>
-          <div className='grid grid-rows-4 divide-y'>
+          <div className='grid grid-rows-5 divide-y'>
             <div className='p-2 place-content-center'>13:45 - 15:00</div>
             <div className='p-2 place-content-center'>15:00 - 16:15</div>
             <div className='p-2 place-content-center'>15:30 - 16:45</div>
@@ -70,7 +70,7 @@ const MobileTimeTable = ({ className }) => {
           <div className='grid grid-rows-5 divide-y'>
             <div className='p-2'></div>
             <div className='p-2'></div>
-            <div className='p-2 flex flex-col items-center bg-fuchsia-600 text-white'>
+            <div className='p-2 flex flex-col items-center text-white bg-fuchsia-600'>
               <p>Classic 1</p>
               <p>Tanečná príprava</p>
             </div>
