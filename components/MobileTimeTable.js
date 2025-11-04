@@ -71,7 +71,7 @@ const MobileTimeTable = ({ className }) => {
             <div className='p-2'></div>
             <div className='p-2 flex flex-col items-center bg-fuchsia-600 text-white'>
               <p>Classic 1</p>
-              <p>Klasický tanec</p>
+              <p>Tanečná príprava</p>
             </div>
             <div className='p-2'></div>
             <div className='p-2'></div>
