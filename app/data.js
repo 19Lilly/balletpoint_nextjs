@@ -260,6 +260,19 @@ const galleryData = [
 const eventsData = [
   {
     id: uuid(),
+    date: '19.december 2025',
+    time: '17:00',
+    title: 'Vianočný koncert',
+    place: 'Kino Lamač, Malokarpatské námestie',
+    url: 'events/BalletPointVianocnyKoncert2025',
+    // urlGallery: '/gallery/FestivalVodnikov',
+    img: '/images/BalletPointXmasConcert2025.jpg',
+    participate: ['Classic 1, Classic 2, Classic 3, Classic 4'],
+    active: true,
+    targetBlank: false,
+  },
+  {
+    id: uuid(),
     date: '7.september 2025',
     time: '14:30',
     title: 'Festival vodníkov',
