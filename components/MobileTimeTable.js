@@ -69,11 +69,12 @@ const MobileTimeTable = ({ className }) => {
           </div>
           <div className='grid grid-rows-5 divide-y'>
             <div className='p-2'></div>
+            <div className='p-2'></div>
             <div className='p-2 flex flex-col items-center bg-fuchsia-600 text-white'>
               <p>Classic 1</p>
               <p>Tanečná príprava</p>
             </div>
-            <div className='p-2'></div>
+
             <div className='p-2'></div>
             <div className='p-2'></div>
           </div>
