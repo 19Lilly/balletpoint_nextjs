@@ -6,9 +6,7 @@ import Link from 'next/link';
 import { galleryData } from '@/app/data';
 import CarouselComponent from '@/components/CarouselComponent';
 
-// export const metadata = {
-//   title: `${params.name}`,
-// };
+
 
 const SingleGallery = ({ params }) => {
   const [{ title, url, numbers }] = galleryData.filter(
@@ -32,7 +30,11 @@ const SingleGallery = ({ params }) => {
         </Link>
       </h2>
       <div className='w-[min(70rem,98%)] h-[1000px] mx-auto'>
-        <CarouselComponent images={imgs} />
+        {imgs.length > 0 ? (
+          <CarouselComponent images={imgs} />
+        ) : (
+          <h2>Pripravujeme...</h2>
+        )}
       </div>
     </div>
   );

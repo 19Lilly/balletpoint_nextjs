@@ -198,7 +198,7 @@ const galleryData = [
   },
   {
     id: uuid(),
-    title: 'Rozálske hody',
+    title: 'Rozálske hody 2024',
     url: 'RozalskeHody',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
   },
@@ -243,6 +243,18 @@ const galleryData = [
       22, 23, 24,
     ],
   },
+  {
+    id: uuid(),
+    title: 'Rozálske hody 2025',
+    url: 'RozalskeHody2025',
+    numbers: [],
+  },
+  {
+    id: uuid(),
+    title: 'Festival vodníkov',
+    url: 'FestivalVodnikov',
+    numbers: [],
+  },
 ];
 
 const eventsData = [
@@ -252,11 +264,12 @@ const eventsData = [
     time: '14:30',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
-    url: 'https://www.karlovaves.sk/kulturne-leto-festival-vodnikov-2025/',
+    url: 'events/FestivalVodnikov',
+    urlGallery: '/gallery/FestivalVodnikov',
     img: '/images/festival_vodnikov_09_2025.png',
     participate: ['Classic 3'],
-    active: true,
-    targetBlank: true,
+    active: false,
+    targetBlank: false,
   },
   {
     id: uuid(),
@@ -264,12 +277,12 @@ const eventsData = [
     time: '17:00 - 17:15',
     title: 'Rozálske hody 2025',
     place: 'Malokarpatské námestie, Lamač',
-    url: 'https://www.lamac.sk/novinky/rozalske-hody-2025',
-    // urlGallery: '/gallery/RozalskeHody2025',
+    url: 'events/RozalskeHody2025',
+    urlGallery: '/gallery/RozalskeHody2025',
     img: '/images/rozalske-hody-2025.jpg',
     participate: ['Classic 2, Classic 3'],
-    active: true,
-    targetBlank: true,
+    active: false,
+    targetBlank: false,
   },
   {
     id: uuid(),
