@@ -11,10 +11,9 @@ const TimeSchedule = () => {
     <div className='main-container'>
       <h1>Rozvrh hodín</h1>
       <p className='md:w-[80ch]'>
-        V prípade skupín s dvoma hodinami za týždeň je hlavný deň tréningov
-        <span className='font-bold'> piatok</span>. Na utorkové hodiny je možné
-        sa prihlásiť len v prípade, že dieťa bude navštevovať aj piatkové
-        hodiny.
+        V prípade skupín s dvoma hodinami za týždeň je hlavný deň tréningov pre skupiny Classic 2, Classic 3 a Classic 4
+        <span className='font-bold'> piatok</span>. Pre skupinu Classic 1 je hlavný deň tréningov <span className='font-bold'>streda</span>. Na utorkové hodiny je možné
+        sa prihlásiť len v prípade, že dieťa bude navštevovať aj hodiny v piatok respektíve v stredu.
       </p>
       <MobileTimeTable className='md:hidden' />
       <DesktopTimeTable className='hidden md:grid' />
