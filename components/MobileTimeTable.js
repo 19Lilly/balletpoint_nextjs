@@ -63,7 +63,7 @@ const MobileTimeTable = ({ className }) => {
           <div className='grid grid-rows-5 divide-y'>
             <div className='p-2 place-content-center'>13:45 - 15:00</div>
             <div className='p-2 place-content-center'>15:00 - 16:15</div>
-            <div className='p-2 place-content-center'>15:30 - 16:45</div>
+            <div className='p-2 place-content-center'>15:30 - 16:30</div>
             <div className='p-2 place-content-center'>16:50 - 18:05</div>
             <div className='p-2 place-content-center'>18:10 - 19:25</div>
           </div>

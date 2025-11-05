@@ -40,6 +40,7 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-fuchsia-600 text-white flex flex-col items-center justify-center '>
+        <p>15:30-16:30</p>
         <p>Classic 1</p>
         <p>Tanečná príprava</p>
       </div>
