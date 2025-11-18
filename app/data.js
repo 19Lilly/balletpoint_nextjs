@@ -39,6 +39,12 @@ const navigation = [
     EN: 'Contact',
     href: '/contact',
   },
+  {
+    id: uuid(),
+    SK: 'Platby',
+    EN: 'Payments',
+    href: '/payments',
+  },
 ];
 
 const aboutNavData = [
@@ -70,11 +76,11 @@ const trainingsNavData = [
     name: 'Rozvrh hodín',
     url: '/trainings/timeSchedule',
   },
-  {
-    id: uuid(),
-    name: 'Platby',
-    url: '/trainings/payments',
-  },
+  // {
+  //   id: uuid(),
+  //   name: 'Platby',
+  //   url: '/trainings/payments',
+  // },
 ];
 
 const summerCamp2025Data = [
