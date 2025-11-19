@@ -9,72 +9,122 @@
 
 <url>
   <loc>https://www.balletpoint.sk/</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/about</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/trainings</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/gallery</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/events</loc>
-  <lastmod>2024-09-03T23:47:00+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/contact</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/payments</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/events/BalletPointVianocnyKoncert2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/registration</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/about/teacher</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/trainings/groups</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/trainings/timeSchedule</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.balletpoint.sk/trainings/payments</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/gallery/ourClasses</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.balletpoint.sk/gallery/finalConcert_30_6_2024</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <loc>https://www.balletpoint.sk/gallery/finalConcert_june2024</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.balletpoint.sk/gallery/balletPoint_summerCamp2024</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <loc>https://www.balletpoint.sk/gallery/balletPoint_SummerCamp2024</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.balletpoint.sk/gallery/tripToSND</loc>
-  <lastmod>2024-08-18T14:29:09+00:00</lastmod>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/RozalskeHody</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/sleepoverAutumn2024</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/DOD_TKEJ_2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/concertBalletPoint_March2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/concertBalletPoint_June2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/balletPoint_SummerCamp2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/RozalskeHody2025</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.balletpoint.sk/gallery/FestivalVodnikov</loc>
+  <lastmod>2025-11-19T08:16:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
