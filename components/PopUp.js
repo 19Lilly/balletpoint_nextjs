@@ -23,18 +23,9 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-4 text-xl md:text-3xl'>
-              <p>
-                Ballent Point Lamač Vás srdečne pozýva dňa 19.12.2025 o 17:00 na
-                Vianočný koncert žiakov.
-              </p>
-              <Link
-                href='/events/BalletPointVianocnyKoncert2025'
-                className='flex items-center gap-4 justify-center hover:text-[#cca300] '
-              >
-                Viac informácii o podujatí
-                <FaArrowRight />
-              </Link>
+            <div className='my-4 space-y-8 text-xl md:text-3xl'>
+              <p>Ballent Point Lamač Vám praje štastný a úspešný rok 2026.</p>
+              <p>Vyučovanie sa začína v týždni od 12.1.2026</p>
             </div>
           </div>
         </div>

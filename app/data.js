@@ -261,6 +261,12 @@ const galleryData = [
     url: 'FestivalVodnikov',
     numbers: [],
   },
+  {
+    id: uuid(),
+    title: 'Koncert Ballet point - december 2025',
+    url: 'concertBalletPoint_December2025',
+    numbers: [],
+  },
 ];
 
 const eventsData = [
@@ -271,10 +277,10 @@ const eventsData = [
     title: 'Vianočný koncert',
     place: 'Kino Lamač, Malokarpatské námestie',
     url: 'events/BalletPointVianocnyKoncert2025',
-    // urlGallery: '/gallery/FestivalVodnikov',
+    urlGallery: '/gallery/concertBalletPoint_december2025',
     img: '/images/BalletPointXmasConcert2025.jpg',
     participate: ['Classic 1, Classic 2, Classic 3, Classic 4'],
-    active: true,
+    active: false,
     targetBlank: false,
   },
   {
