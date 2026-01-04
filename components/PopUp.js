@@ -24,7 +24,7 @@ const PopUp = () => {
             <Image src={Logo} className='size-[150px] ' />
 
             <div className='my-4 space-y-8 text-xl md:text-3xl'>
-              <p>Ballent Point Lamač Vám praje štastný a úspešný rok 2026.</p>
+              <p>Ballent Point Vám praje štastný a úspešný rok 2026.</p>
               <p>Vyučovanie sa začína v týždni od 12.1.2026</p>
             </div>
           </div>
