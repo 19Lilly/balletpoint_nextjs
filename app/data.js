@@ -277,7 +277,7 @@ const eventsData = [
     title: 'Vianočný koncert',
     place: 'Kino Lamač, Malokarpatské námestie',
     url: 'events/BalletPointVianocnyKoncert2025',
-    urlGallery: '/gallery/concertBalletPoint_december2025',
+    urlGallery: '/gallery/concertBalletPoint_December2025',
     img: '/images/BalletPointXmasConcert2025.jpg',
     participate: ['Classic 1, Classic 2, Classic 3, Classic 4'],
     active: false,
