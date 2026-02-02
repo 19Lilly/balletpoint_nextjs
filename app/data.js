@@ -272,6 +272,19 @@ const galleryData = [
 const eventsData = [
   {
     id: uuid(),
+    date: '11. február 2026',
+    time: '10:00',
+    title: 'DOBROČIN 2025',
+    place: 'Aula ZŠ Podzáhradná, Podunajské Biskupice',
+    url: 'https://bratislavskykraj.sk/podunajske-biskupice-hladaju-dobrocin-roka-2025-hlasovat-mozete-az-do-konca-januara-2026/',
+    urlGallery: '/gallery/Dobrocin_PodunajskeBiskupice',
+    img: '/images/dobrocin_podunajskeBiskupice.jpg',
+    participate: ['Classic 1, Classic 2'],
+    active: true,
+    targetBlank: true,
+  },
+  {
+    id: uuid(),
     date: '19.december 2025',
     time: '17:00',
     title: 'Vianočný koncert',
