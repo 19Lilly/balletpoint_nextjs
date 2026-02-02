@@ -278,7 +278,7 @@ const eventsData = [
     place: 'Aula ZŠ Podzáhradná, Podunajské Biskupice',
     url: 'https://bratislavskykraj.sk/podunajske-biskupice-hladaju-dobrocin-roka-2025-hlasovat-mozete-az-do-konca-januara-2026/',
     urlGallery: '/gallery/Dobrocin_PodunajskeBiskupice',
-    img: '/images/dobrocin_podunajskeBiskupice.jpg',
+    img: '/images/dobrocin_podunajskeBiskupice.JPG',
     participate: ['Classic 1, Classic 2'],
     active: true,
     targetBlank: true,
