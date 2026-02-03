@@ -14,10 +14,13 @@ const Taxes = () => {
         <p className='text-pretty md:w-[80ch] '>Ďakujeme za Vašu pomoc.</p>
       </div>
 
-      <a href='/images/tlacivo_2PercentaZDane_Balletpoint.pdf' download="tlacivo_2Percenta_Balletpoint" className='text-xl flex flex-col justify-center items-center gap-2'>
-              <FaRegFilePdf className='size-20'  />
-           
-        Stiahnúť tlačivo 
+      <a
+        href='/images/tlacivo_2PercentaZDane_Balletpoint.pdf'
+        download='tlacivo_2Percenta_Balletpoint'
+        className='hover:text-[#cca300] flex flex-col justify-center items-center gap-2'
+      >
+        <FaRegFilePdf className='size-20' />
+        Stiahnúť tlačivo
       </a>
     </div>
   );
