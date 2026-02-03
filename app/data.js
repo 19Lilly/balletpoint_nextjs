@@ -105,8 +105,8 @@ const summerCamp2025Data = [
 const quicklinks = [
   {
     id: uuid(),
-    title: 'Zápis šk.rok 2025/2026',
-    href: '/registration',
+    title: '2% z dane',
+    href: '/taxes',
   },
   {
     id: uuid(),
