@@ -5,7 +5,7 @@ const Taxes = () => {
   return (
     <div className='main-container'>
       <h1>2% z dane </h1>
-      <div className='w-full flex flex-col gap-4 pt-8'>
+      <div className='w-full flex flex-col gap-8 pt-8'>
         <p className='text-pretty md:w-[80ch] '>
           .. 2% z dane, ktoré venujete Ballet pointu nám pomôžu kúpiť viac
           potrebného vybavenia pre našich žiakov, ako práve zakúpená profi
@@ -14,7 +14,7 @@ const Taxes = () => {
         <p className='text-pretty md:w-[80ch] '>Ďakujeme za Vašu pomoc.</p>
       </div>
 
-      <a href='/public/images/tlacivo_2%zDane_Balletpoint.pdf' download="tlacivo_2%_Balletpoint" className='text-xl flex flex-col justify-center items-center'>
+      <a href='/images/tlacivo_2PercentaZDane_Balletpoint.pdf' download="tlacivo_2Percenta_Balletpoint" className='text-xl flex flex-col justify-center items-center gap-2'>
               <FaRegFilePdf className='size-20'  />
            
         Stiahnúť tlačivo 
