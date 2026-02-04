@@ -20,7 +20,7 @@ const Taxes = () => {
         className='hover:text-[#cca300] flex flex-col justify-center items-center gap-2'
       >
         <FaRegFilePdf className='size-20' />
-        Stiahnúť tlačivo
+        Stiahnuť tlačivo
       </a>
     </div>
   );
