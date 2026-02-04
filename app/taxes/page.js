@@ -9,7 +9,7 @@ const Taxes = () => {
         <p className='text-pretty md:w-[80ch] '>
           .. 2% z dane, ktoré venujete Ballet pointu nám pomôžu kúpiť viac
           potrebného vybavenia pre našich žiakov, ako práve zakúpená profi
-          baletná tyč v hodnote 619€.
+          baletná tyč.
         </p>
         <p className='text-pretty md:w-[80ch] '>Ďakujeme za Vašu pomoc.</p>
       </div>
