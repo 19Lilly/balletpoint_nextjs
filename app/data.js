@@ -267,6 +267,12 @@ const galleryData = [
     url: 'concertBalletPoint_December2025',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   },
+  {
+    id: uuid(),
+    title: 'DOBROČIN 2025',
+    url: 'dobrocin2025',
+    numbers: [1, 2, 3, 4, 5],
+  },
 ];
 
 const eventsData = [
@@ -280,8 +286,8 @@ const eventsData = [
     urlGallery: '/gallery/Dobrocin_PodunajskeBiskupice',
     img: '/images/dobrocin_podunajskeBiskupice.JPG',
     participate: ['Classic 1, Classic 2'],
-    active: true,
-    targetBlank: true,
+    active: false,
+    targetBlank: false,
   },
   {
     id: uuid(),
