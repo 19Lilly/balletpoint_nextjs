@@ -265,7 +265,7 @@ const galleryData = [
     id: uuid(),
     title: 'Koncert Ballet point - december 2025',
     url: 'concertBalletPoint_December2025',
-    numbers: [],
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   },
 ];
 
