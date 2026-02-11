@@ -271,7 +271,7 @@ const galleryData = [
     id: uuid(),
     title: 'DOBROČIN 2025',
     url: 'dobrocin2025',
-    numbers: [1, 2, 3, 4, 5],
+    numbers: [1, 2, 3, 4],
   },
 ];
 
