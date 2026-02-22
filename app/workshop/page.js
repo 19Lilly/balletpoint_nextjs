@@ -9,7 +9,7 @@ const Workshop = () => {
   return (
     <div className='main-container select-none'>
       <h1 className=''>Workshop</h1>
-      <div className='flex'>
+      <div className='flex flex-col md:flex-row'>
         <Image
           src={poster}
           width={500}
@@ -22,12 +22,12 @@ const Workshop = () => {
           height={300}
           alt='Plagát s informáciami o workshope'
         />
-          </div>
-          
-        <video controls autoPlay muted loop height={700}>
+      </div>
+
+      {/* <video controls autoPlay muted loop height={700}>
         <source src='/public/videos/workshop.mp4' type='video/mp4' />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
     </div>
   );
 };
