@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { MdMenu } from 'react-icons/md';
 import { LiaTimesSolid } from 'react-icons/lia';
+import SocialMedia from './SocialMedia';
 // import Logo from './Logo';
 import { usePathname } from 'next/navigation';
 import { navigation } from '@/app/data';
@@ -20,13 +21,12 @@ const Navbar = () => {
     <div className='bg-zinc-950 text-white text-xl'>
       <nav className=' flex justify-between items-center p-4 md:p-0  gap-4  max-w-7xl mx-auto w-full relative'>
         <Link href='/' className='flex flex-col items-start'>
-          {/* <Logo /> */}
           <Image
             src={Logo}
             className='size-[100px] hover:shadow-xl hover:shadow-[#cca300]'
           />
         </Link>
-        <div className='hidden lg:flex gap-4 '>
+        <div className='hidden lg:flex gap-4 items-end '>
           {navigation.map(({ id, href, SK }) => {
             return (
               <Link
@@ -43,11 +43,13 @@ const Navbar = () => {
               </Link>
             );
           })}
+          <SocialMedia />
         </div>
         <div
           onClick={() => setNav(!nav)}
-          className='lg:hidden ml-auto text-5xl relative'
+          className='lg:hidden ml-auto text-5xl relative flex gap-4 '
         >
+          <SocialMedia />
           {nav ? <LiaTimesSolid /> : <MdMenu />}
           {nav && (
             <div className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute z-30 -left-44 top-8 '>

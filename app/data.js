@@ -45,12 +45,12 @@ const navigation = [
     EN: 'Payments',
     href: '/payments',
   },
-  {
-    id: uuid(),
-    SK: 'Workshop',
-    EN: 'Workshop',
-    href: '/workshop',
-  },
+  // {
+  //   id: uuid(),
+  //   SK: 'Workshop',
+  //   EN: 'Workshop',
+  //   href: '/workshop',
+  // },
 ];
 
 const aboutNavData = [
@@ -116,8 +116,8 @@ const quicklinks = [
   },
   {
     id: uuid(),
-    title: 'Podujatia',
-    href: '/events',
+    title: 'Workshop',
+    href: '/workshop',
   },
 ];
 
