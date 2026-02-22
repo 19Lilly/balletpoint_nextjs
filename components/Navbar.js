@@ -52,7 +52,7 @@ const Navbar = () => {
           <SocialMedia />
           {nav ? <LiaTimesSolid /> : <MdMenu />}
           {nav && (
-            <div className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute z-30 -left-44 top-8 '>
+            <div className='flex flex-col p-4 w-44 items-start bg-zinc-800 rounded-xl absolute z-30 -left-20 top-8 '>
               {navigation.map(({ id, href, SK }) => (
                 <Link
                   key={id}

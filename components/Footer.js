@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaRegCopyright } from 'react-icons/fa';
+import SocialMedia from './SocialMedia';
 
 const Footer = () => {
   return (
@@ -9,15 +10,17 @@ const Footer = () => {
         <div className='flex items-center gap-2'>
           <FaRegCopyright />
           {new Date().getFullYear()}
+
+          <Link
+            href='https://www.linkedin.com/in/rozvita-%C5%A1tiglinc/'
+            rel='noopener noreferrer'
+            target='_blank'
+            className='hover:text-[#cca300]'
+          >
+            Lilly
+          </Link>
         </div>
-        <Link
-          href='https://www.linkedin.com/in/rozvita-%C5%A1tiglinc/'
-          rel='noopener noreferrer'
-          target='_blank'
-          className='hover:text-[#cca300]'
-        >
-          Lilly
-        </Link>
+        {/* <SocialMedia /> */}
       </div>
     </footer>
   );
