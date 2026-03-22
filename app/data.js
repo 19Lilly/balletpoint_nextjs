@@ -116,9 +116,14 @@ const quicklinks = [
   },
   {
     id: uuid(),
-    title: 'Workshop',
-    href: '/workshop',
+    title: 'Letný tábor 2026',
+    href: '/summerCamp2026',
   },
+  // {
+  //   id: uuid(),
+  //   title: 'Workshop',
+  //   href: '/workshop',
+  // },
 ];
 
 const groupsData = [
