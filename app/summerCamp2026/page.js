@@ -3,7 +3,7 @@ import poster from '/public/images/summerCamp2026.jpeg';
 import poster1 from '/public/images/summerCamp2026_1.jpeg';
 import Image from 'next/image'
 import React from 'react'
-// import summerCamp2026 from './page';
+
 
 const summerCamp2026 = () => {
 

@@ -109,10 +109,15 @@ const quicklinks = [
     title: '2% z dane',
     href: '/taxes',
   },
+  // {
+  //   id: uuid(),
+  //   title: 'Galéria',
+  //   href: '/gallery',
+  // },
   {
     id: uuid(),
-    title: 'Galéria',
-    href: '/gallery',
+    title: 'Prespávačka',
+    href: '/overnightSleep',
   },
   {
     id: uuid(),
