@@ -25,7 +25,7 @@ const PopUp = () => {
 
             <div className='my-4 space-y-8 text-xl md:text-3xl'>
               <p>Príjemné prázdniny všetkým!</p>
-              <p>Tešíme sa na Vás od 23.2.2026</p>
+              <p>Tešíme sa na Vás od štvrtku 9.4.2026</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const HeroSection = () => {
       h-100vh w-full relative"
       fetchPriority='high'
     >
-      {/* <PopUp /> */}
+      <PopUp />
       <div className='main-container flex flex-col h-full  relative '>
         <QuickLinksSidebar />
       </div>
