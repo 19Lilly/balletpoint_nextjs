@@ -7,24 +7,24 @@ export const metadata = {
     'Koncer žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice 9.3.2025',
 };
 
-const koncertZiakovJun2025 = () => {
+const koncertZiakovJun2026 = () => {
   return (
     <div className='main-container'>
-      <h1>Koncert žiakov Ballet pointu - 29.6.2025</h1>
+      <h1>Koncert žiakov Ballet pointu - 14.6.2026</h1>
       <p className='md:w-[80ch] text-pretty'>
         V rámci koncertu vystúpia žiaci z Lamača a Podunajských Biskupíc.
       </p>
 
-      <div className='main-container flex items-center justify-center mx-auto'>
+      {/* <div className='main-container flex items-center justify-center mx-auto'>
         <Image
           src={poster}
           width={700}
           height={500}
-          alt='Plagát s informáciami o koncerte žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice 9.3.2025'
+          alt='Plagát s informáciami o koncerte žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice'
         />
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default koncertZiakovJun2025;
+export default koncertZiakovJun2026;

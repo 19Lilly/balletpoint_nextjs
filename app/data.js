@@ -292,6 +292,19 @@ const galleryData = [
 const eventsData = [
   {
     id: uuid(),
+    date: '14. jún 2026',
+    time: '17:00',
+    title: 'Koncoročný koncert',
+    place: 'Kino Lamač',
+    url: 'events/KoncertZiakovJun2026',
+    urlGallery: '/gallery/concertBalletPoint_June2026',
+    img: '/images/thumbnail.jpg',
+    participate: ['MČ Lamač, MČ Podunajské Biskupice'],
+    active: true,
+    targetBlank: false,
+  },
+  {
+    id: uuid(),
     date: '11. február 2026',
     time: '10:00',
     title: 'DOBROČIN 2025',
