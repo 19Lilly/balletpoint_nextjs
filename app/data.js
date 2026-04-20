@@ -109,21 +109,21 @@ const quicklinks = [
     title: '2% z dane',
     href: '/taxes',
   },
-  // {
-  //   id: uuid(),
-  //   title: 'Galéria',
-  //   href: '/gallery',
-  // },
   {
     id: uuid(),
-    title: 'Prespávačka',
-    href: '/overnightSleep',
+    title: 'Galéria',
+    href: '/gallery',
   },
   {
     id: uuid(),
     title: 'Letný tábor 2026',
     href: '/summerCamp2026',
   },
+  // {
+  //   id: uuid(),
+  //   title: 'Prespávačka',
+  //   href: '/overnightSleep',
+  // },
   // {
   //   id: uuid(),
   //   title: 'Workshop',
@@ -286,6 +286,12 @@ const galleryData = [
     title: 'DOBROČIN 2025',
     url: 'dobrocin2025',
     numbers: [1, 2, 3, 4, 5],
+  },
+  {
+    id: uuid(),
+    title: 'Prespávačka 2026',
+    url: 'sleepoverSpring2026',
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
   },
 ];
 
