@@ -32,9 +32,13 @@ const PopUp = () => {
               <p>C1+C2: 11:00-12:00</p>
               <p>C3: 12:00-13:00</p>
               <p>C4: 13:00-14:00</p> */}
-              <p>Dňa 8.5.2026 sú všetky hodiny zrušené z dôvodu slabej účasti žiakov. Prajeme krásny predĺžený víkend. </p>
-              <p>Ballet point</p>
-              
+              {/* <p>Dňa 8.5.2026 sú všetky hodiny zrušené z dôvodu slabej účasti žiakov. Prajeme krásny predĺžený víkend. </p>
+              <p>Ballet point</p> */}
+              <p>
+                C1 a C2 hodina sa utorok 12.5.2026 ruší. Náhradná hodina bude v
+                pondelok 18.5.2026 v čase 17:00 - 18:10
+              </p>
+              <p>Ďakujeme za pochopenie</p>
             </div>
           </div>
         </div>
