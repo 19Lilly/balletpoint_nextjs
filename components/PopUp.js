@@ -23,22 +23,24 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-8 text-xl md:text-3xl'>
+            <div className='my-4 space-y-4 text-xl md:text-3xl text-left'>
+              <p className='text-center'>Náhradné hodiny</p>
+              <div>
+                <p className='font-bold mb-2'>18.5.2026</p>
+                <p>C1+C2: 17:00 - 18:10</p>
+              </div>
+              <div>
+                <p className='font-bold mb-2'> 23.5.2026 a 6.6.2026</p>
+                <p>C1+C2: 11:00-12:00</p>
+                <p>C3: 12:00-13:00</p>
+                <p>C4: 13:00-14:00</p>
+              </div>
+
               {/* <p>
-                Náhradné hodiny Balletpointu Lamač sa uskutočnia v dňoch
-                23.5.2026 a 6.6.2026 od 11:00 do 14:00.
-              </p>
-              <p>1 vyučovacia hodina bude trvať 60 minút.</p>
-              <p>C1+C2: 11:00-12:00</p>
-              <p>C3: 12:00-13:00</p>
-              <p>C4: 13:00-14:00</p> */}
-              {/* <p>Dňa 8.5.2026 sú všetky hodiny zrušené z dôvodu slabej účasti žiakov. Prajeme krásny predĺžený víkend. </p>
-              <p>Ballet point</p> */}
-              <p>
                 C1 a C2 hodina sa utorok 12.5.2026 ruší. Náhradná hodina bude v
                 pondelok 18.5.2026 v čase 17:00 - 18:10
               </p>
-              <p>Ďakujeme za pochopenie</p>
+              <p>Ďakujeme za pochopenie</p> */}
             </div>
           </div>
         </div>
