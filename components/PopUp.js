@@ -24,16 +24,15 @@ const PopUp = () => {
             <Image src={Logo} className='size-[150px] ' />
 
             <div className='my-4 space-y-4 text-xl md:text-3xl text-left'>
-              <p className='text-center'>Náhradné hodiny</p>
               <div>
-                <p className='font-bold mb-2'>18.5.2026</p>
-                <p>C1+C2: 17:00 - 18:10</p>
-              </div>
-              <div>
-                <p className='font-bold mb-2'> 23.5.2026 a 6.6.2026</p>
+                <p className='font-bold mb-2 '> 6.6.2026 - kostýmová skúška </p>
                 <p>C1+C2: 11:00-12:00</p>
                 <p>C3: 12:00-13:00</p>
                 <p>C4: 13:00-14:00</p>
+              </div>
+              <div>
+                <p className='font-bold mb-2'> 13.6.2026</p>
+                <p>C1 až C4: hodiny podľa potreby</p>
               </div>
 
               {/* <p>
