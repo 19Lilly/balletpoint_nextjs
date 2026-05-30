@@ -1,6 +1,5 @@
 
-import poster from '/public/images/summerCamp2026.jpeg';
-import poster1 from '/public/images/summerCamp2026_1.jpeg';
+import poster from '/public/images/summerCamp2026_2.jpeg';
 import Image from 'next/image'
 import React from 'react'
 
@@ -19,6 +18,7 @@ return (
         info@balletpoint.sk
       </a>
     </p>
+    <p>Platba:</p>
     <img
       src='/images/payBySquareSummerCamp2026.jpeg'
       alt='pay by square image'
@@ -27,12 +27,6 @@ return (
     <div className='flex flex-col md:flex-row'>
       <Image
         src={poster}
-        width={500}
-        height={300}
-        alt='Plagát s informáciami o letnom tábore'
-      />
-      <Image
-        src={poster1}
         width={500}
         height={300}
         alt='Plagát s informáciami o letnom tábore'
