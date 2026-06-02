@@ -104,10 +104,15 @@ const summerCamp2025Data = [
 
 
 const quicklinks = [
+  // {
+  //   id: uuid(),
+  //   title: '2% z dane',
+  //   href: '/taxes',
+  // },
   {
     id: uuid(),
-    title: '2% z dane',
-    href: '/taxes',
+    title: 'Koncert žiakov - jún 2026',
+    href: '/events/KoncertZiakovJun2026',
   },
   {
     id: uuid(),
@@ -119,6 +124,7 @@ const quicklinks = [
     title: 'Letný tábor 2026',
     href: '/summerCamp2026',
   },
+
   // {
   //   id: uuid(),
   //   title: 'Prespávačka',
@@ -304,7 +310,7 @@ const eventsData = [
     place: 'Kino Lamač',
     url: 'events/KoncertZiakovJun2026',
     urlGallery: '/gallery/concertBalletPoint_June2026',
-    img: '/images/thumbnail.jpg',
+    img: '/images/koncert_ziakov_jun2026.jpg',
     participate: ['MČ Lamač, MČ Podunajské Biskupice'],
     active: true,
     targetBlank: false,

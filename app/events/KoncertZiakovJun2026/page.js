@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import poster from '/public/images/koncert_ziakov_jun2025.jpg';
+import poster from '/public/images/koncert_ziakov_jun2026.jpg';
 
 export const metadata = {
   title:
@@ -15,14 +15,14 @@ const koncertZiakovJun2026 = () => {
         V rámci koncertu vystúpia žiaci z Lamača a Podunajských Biskupíc.
       </p>
 
-      {/* <div className='main-container flex items-center justify-center mx-auto'>
+      <div className='main-container flex items-center justify-center mx-auto'>
         <Image
           src={poster}
           width={700}
           height={500}
           alt='Plagát s informáciami o koncerte žiakov Ballet pointu Lamač a Ballet pointu Podunajské Biskupice'
         />
-      </div> */}
+      </div>
     </div>
   );
 };
