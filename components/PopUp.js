@@ -23,23 +23,13 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-4 text-xl md:text-3xl text-left'>
-              <div>
-                <p className='font-bold mb-2 '> 6.6.2026 - kostýmová skúška </p>
-                <p>C1+C2: 11:00-12:00</p>
-                <p>C3: 12:00-13:00</p>
-                <p>C4: 13:00-14:00</p>
-              </div>
-              <div>
-                <p className='font-bold mb-2'> 13.6.2026</p>
-                <p>C1 až C4: hodiny podľa potreby</p>
-              </div>
-
-              {/* <p>
-                C1 a C2 hodina sa utorok 12.5.2026 ruší. Náhradná hodina bude v
-                pondelok 18.5.2026 v čase 17:00 - 18:10
+            <div className='my-4 space-y-4 text-xl text-center md:text-3xl'>
+              <p>
+                Ballet point pokračuje vo výučbe podľa rozvrhu OD PIATKU
+                19.6.2026.
               </p>
-              <p>Ďakujeme za pochopenie</p> */}
+              <p> Hodiny v utorok až štvrtok sú zrušené.</p>
+              <p>Ďakujeme</p>
             </div>
           </div>
         </div>

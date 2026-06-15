@@ -299,6 +299,12 @@ const galleryData = [
     url: 'sleepoverSpring2026',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
   },
+  {
+    id: uuid(),
+    title: 'Koncert Ballet point - jún 2026',
+    url: 'concertBalletPoint_June2026',
+    numbers: [],
+  },
 ];
 
 const eventsData = [
@@ -312,7 +318,7 @@ const eventsData = [
     urlGallery: '/gallery/concertBalletPoint_June2026',
     img: '/images/koncert_ziakov_jun2026.jpg',
     participate: ['MČ Lamač, MČ Podunajské Biskupice'],
-    active: true,
+    active: false,
     targetBlank: false,
   },
   {
