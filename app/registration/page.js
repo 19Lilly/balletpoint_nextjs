@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Zápis v školskokm roku 2025/2026',
+  title: 'Zápis v školskokm roku 2026/2027',
 };
 
 const Registration = () => {
