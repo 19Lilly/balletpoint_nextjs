@@ -109,11 +109,17 @@ const quicklinks = [
   //   title: '2% z dane',
   //   href: '/taxes',
   // },
+  // {
+  //   id: uuid(),
+  //   title: 'Koncert žiakov - jún 2026',
+  //   href: '/events/KoncertZiakovJun2026',
+  // },
   {
     id: uuid(),
-    title: 'Koncert žiakov - jún 2026',
-    href: '/events/KoncertZiakovJun2026',
+    title: 'Zápis 2026/2027',
+    href: '/registration',
   },
+
   {
     id: uuid(),
     title: 'Galéria',

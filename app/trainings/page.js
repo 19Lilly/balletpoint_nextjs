@@ -31,11 +31,11 @@ const Trainings = () => {
         .
       </p> */}
 
-      <p className='font-bold'>Začiatok šk. roka: </p>
+      {/* <p className='font-bold'>Začiatok šk. roka: </p>
       <ul>
         <li>Lamač - september 2025</li>
         <li>ZŠ Podzáhradná - október 2025</li>
-      </ul>
+      </ul> */}
 
       <OrganizationInfo />
     </div>
