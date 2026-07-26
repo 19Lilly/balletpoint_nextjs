@@ -28,8 +28,8 @@ const PopUp = () => {
 
               <p>Skúšky terajších žiakov začnú v týždni od 24.8.2026</p>
               <p>
-                Skúšobné hodiny pre skupiny C1 a C2 budú prebiehať v týždni od
-                31.8.2026
+                Skúšobné hodiny nových žiakov skupín C1 a C2 budú prebiehať v
+                týždni od 31.8.2026
               </p>
             </div>
           </div>
