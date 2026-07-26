@@ -87,8 +87,8 @@ const trainingsNavData = [
 const summerCamp2025Data = [
   {
     id: uuid(),
-    name: 'Denný letný tábor 2025',
-    url: '/summerCamp2025',
+    name: 'Denný letný tábor 2026',
+    url: '/summerCamp2026',
   },
   {
     id: uuid(),

@@ -24,16 +24,13 @@ const PopUp = () => {
             <Image src={Logo} className='size-[150px] ' />
 
             <div className='my-4 space-y-6 text-lg text-left md:text-3xl'>
-              <p>Koniec školského roku 2025/2026 v Balletpointe</p>
-              <div>
-                <p>
-                  <span className='font-bold'>Lamač:</span> 23.6.2026
-                </p>
-                <p>
-                  <span className='font-bold'>Pod. Biskupice:</span> 25.6.2026
-                </p>
-              </div>
+              <p>Začiatok školského roku 2026/2027 v Balletpointe</p>
+
               <p>Skúšky terajších žiakov začnú v týždni od 24.8.2026</p>
+              <p>
+                Skúšobné hodiny pre skupiny C1 a C2 budú prebiehať v týždni od
+                31.8.2026
+              </p>
             </div>
           </div>
         </div>
