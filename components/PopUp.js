@@ -26,11 +26,22 @@ const PopUp = () => {
             <div className='my-4 space-y-6 text-lg text-left md:text-3xl'>
               <p>Začiatok školského roku 2026/2027 v Balletpointe</p>
 
-              <p>Skúšky terajších žiakov začnú v týždni od 24.8.2026</p>
-              <p>
-                Skúšobné hodiny nových žiakov skupín C1 a C2 budú prebiehať v
-                týždni od 31.8.2026
-              </p>
+              <p>Skúšky terajších žiakov začnú v týždni od 1.9.2026</p>
+              <p>Skúšobné hodiny nových žiakov: </p>
+
+              <ul classname='my-4'>
+                <li>C1+C2: 1.9.2026, 4.9.2026</li>
+                <li>C3+C4: 8.9.2026, 11.9.2026</li>
+              </ul>
+              <>
+                <p>Prihlasovanie mailom:</p>
+                <a
+                  href='mailto:info@balletpoint.sk'
+                  className='underline underline-offset-2 hover:text-[#cca300]'
+                >
+                  info@balletpoint.sk
+                </a>
+              </>
             </div>
           </div>
         </div>
