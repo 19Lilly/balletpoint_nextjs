@@ -9,12 +9,12 @@ import CarouselComponent from '@/components/CarouselComponent';
 
 
 const SingleGallery = ({ params }) => {
-  const [{ title, url, numbers }] = galleryData.filter(
-    gallery => gallery.url === params.name
+  const [{ title, url, numbers, format }] = galleryData.filter(
+    gallery => gallery.url === params.name,
   );
 
   const imgs = numbers.map(number => ({
-    src: `/images/${url}/${url}_${number}.jpg`,
+    src: `/images/${url}/${url}_${number}.${format}`,
   }));
 
   return (

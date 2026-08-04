@@ -82,6 +82,11 @@ const trainingsNavData = [
     name: 'Rozvrh hodín',
     url: '/trainings/timeSchedule',
   },
+  {
+    id: uuid(),
+    name: 'Skúšky - Rozálske hody 2026',
+    url: '/trainings/reharsal_rozalskeHody',
+  },
 ];
 
 const summerCamp2025Data = [
@@ -202,12 +207,14 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
       22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'Záverečný koncert - 30.6.2024',
     url: 'finalConcert_june2024',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -218,18 +225,21 @@ const galleryData = [
       22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
       40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'SND - Narodil sa chrobáčik a Rukopisy majstrov galéria',
     url: 'tripToSND',
     numbers: [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'Rozálske hody 2024',
     url: 'RozalskeHody',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -238,13 +248,16 @@ const galleryData = [
     numbers: [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'DOD 2025 - Tanečné konzervatórium Evy Jaczovej',
     url: 'DOD_TKEJ_2025',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8],
+    format: 'jpg',
   },
+
   {
     id: uuid(),
     title: 'Koncert Ballet point - marec 2025',
@@ -253,6 +266,7 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
       22,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -262,6 +276,7 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
       22, 23, 24,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -271,6 +286,7 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
       22, 23, 24,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -280,12 +296,14 @@ const galleryData = [
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
       22, 23, 24,
     ],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'Festival vodníkov',
     url: 'FestivalVodnikov',
     numbers: [],
+    format: 'jpg',
   },
   {
     id: uuid(),
@@ -298,18 +316,28 @@ const galleryData = [
     title: 'DOBROČIN 2025',
     url: 'dobrocin2025',
     numbers: [1, 2, 3, 4, 5],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'Prespávačka 2026',
     url: 'sleepoverSpring2026',
     numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    format: 'jpg',
   },
   {
     id: uuid(),
     title: 'Koncert Ballet point - jún 2026',
     url: 'concertBalletPoint_June2026',
     numbers: [],
+    format: 'jpg',
+  },
+  {
+    id: uuid(),
+    title: 'Ballet point - Letný tábor 2026',
+    url: 'balletPoint_SummerCamp2026',
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+    format: 'jpeg',
   },
 ];
 
