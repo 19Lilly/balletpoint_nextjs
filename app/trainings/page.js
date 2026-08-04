@@ -9,7 +9,7 @@ export const metadata = {
 const Trainings = () => {
   return (
     <div className='main-container'>
-      <h1>Info - školský rok 2025/2026</h1>
+      <h1>Info - školský rok 2026/2027</h1>
 
       {/* <p className='md:w-[80ch] text-pretty'>
         Aktuálne prebieha zápis do baletnej školy pre školský rok 2025/2026.
