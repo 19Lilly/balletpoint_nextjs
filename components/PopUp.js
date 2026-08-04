@@ -29,7 +29,7 @@ const PopUp = () => {
               <p>Skúšky terajších žiakov začnú v týždni od 1.9.2026</p>
               <p>Skúšobné hodiny nových žiakov: </p>
 
-              <ul classname='my-4'>
+              <ul className='my-4'>
                 <li>C1+C2: 1.9.2026, 4.9.2026</li>
                 <li>C3+C4: 8.9.2026, 11.9.2026</li>
               </ul>

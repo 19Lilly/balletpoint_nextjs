@@ -36,10 +36,13 @@ const TimeSchedule = () => {
       </div>
       <div>
         <p>Sobota - 5.9.2026 :</p>
-        <p><span className='font-bold'>Nástup žiakov: </span> 13:00</p>
-        <p><span className='font-bold'>Vystúpenie:</span> 14:40-15:00  </p>
+        <p>
+          <span className='font-bold'>Nástup žiakov: </span> 13:00
+        </p>
+        <p>
+          <span className='font-bold'>Vystúpenie:</span> 14:40-15:00{' '}
+        </p>
       </div>
-
     </div>
   );
 };

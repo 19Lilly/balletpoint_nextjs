@@ -132,8 +132,8 @@ const quicklinks = [
   },
   {
     id: uuid(),
-    title: 'Letný tábor 2026',
-    href: '/summerCamp2026',
+    title: 'Skúšky - Rozálske hody 2026',
+    href: '/trainings/reharsal_rozalskeHody',
   },
 
   // {
