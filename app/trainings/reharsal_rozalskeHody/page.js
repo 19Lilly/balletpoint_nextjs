@@ -6,7 +6,7 @@ export const metadata = {
   title: 'Rozvrh hodín',
 };
 
-const TimeSchedule = () => {
+const reharsalRozalskeHody = () => {
   return (
     <div className='main-container'>
       <h1>Skúšky - Rozálske hody 2026</h1>
@@ -47,4 +47,4 @@ const TimeSchedule = () => {
   );
 };
 
-export default TimeSchedule;
+export default reharsalRozalskeHody;

@@ -87,6 +87,11 @@ const trainingsNavData = [
     name: 'Skúšky - Rozálske hody 2026',
     url: '/trainings/reharsal_rozalskeHody',
   },
+  {
+    id: uuid(),
+    name: 'Skúšobné hodiny ',
+    url: '/trainings/testClasses',
+  },
 ];
 
 const summerCamp2025Data = [
@@ -125,10 +130,15 @@ const quicklinks = [
     href: '/registration',
   },
 
+  // {
+  //   id: uuid(),
+  //   title: 'Galéria',
+  //   href: '/gallery',
+  // },
   {
     id: uuid(),
-    title: 'Galéria',
-    href: '/gallery',
+    title: 'Skušobné hodiny',
+    href: '/trainings/testClasses',
   },
   {
     id: uuid(),
@@ -342,6 +352,45 @@ const galleryData = [
 ];
 
 const eventsData = [
+  {
+    id: uuid(),
+    date: '26.september 2025',
+    time: '16:30',
+    title: 'Karloveské hody 2026',
+    place: 'Park SNP - Líščie údolie, Karlova ves',
+    url: '',
+    urlGallery: '/gallery/KarloveskeHody2026',
+    img: '/images/thumbnail.jpg',
+    participate: ['Classic 3, Classic 4'],
+    active: true,
+    targetBlank: true,
+  },
+  {
+    id: uuid(),
+    date: '6.september 2025',
+    time: '14:30',
+    title: 'Festival vodníkov',
+    place: 'Vodárenská záhrada, Karlova ves',
+    url: 'https://www.folklorfest.sk/20806-festival-vodnikov-2026-karlova-ves/',
+    urlGallery: '/gallery/FestivalVodnikov',
+    img: '/images/festival_vodnikov_09_2026.jpg',
+    participate: ['Classic 4'],
+    active: true,
+    targetBlank: true,
+  },
+  {
+    id: uuid(),
+    date: '5. september 2026',
+    time: '14:40 - 15:00',
+    title: 'Rozálske hody 2026',
+    place: 'Malokarpatské námestie, Lamač',
+    url: 'https://www.lamac.sk/novinky/rozalske-hody-2026',
+    urlGallery: '/gallery/RozalskeHody2026',
+    img: '/images/rozalske-hody-2026-lamac.webp',
+    participate: ['Classic1, Classic 2, Classic 3, Classic 4'],
+    active: true,
+    targetBlank: true,
+  },
   {
     id: uuid(),
     date: '14. jún 2026',
