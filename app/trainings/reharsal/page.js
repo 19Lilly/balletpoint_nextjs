@@ -6,10 +6,10 @@ export const metadata = {
   title: 'Rozvrh hodín',
 };
 
-const reharsalRozalskeHody = () => {
+const reharsal = () => {
   return (
     <div className='main-container'>
-      <h1>Skúšky - Rozálske hody 2026</h1>
+      <h1>Skúšky - Rozálske hody 2026 a Vodnícke slávnosti</h1>
       <div>
         <p>Utorok - 1.9.2026 :</p>
         <p>
@@ -43,8 +43,17 @@ const reharsalRozalskeHody = () => {
           <span className='font-bold'>Vystúpenie:</span> 14:40-15:00{' '}
         </p>
       </div>
+      <div>
+        <p>Nedeľa - 6.9.2026 :</p>
+        <p>
+          <span className='font-bold'>Nástup žiakov: </span> upresníme
+        </p>
+        <p>
+          <span className='font-bold'>Vystúpenie:</span> 14:30
+        </p>
+      </div>
     </div>
   );
 };
 
-export default reharsalRozalskeHody;
+export default reharsal;

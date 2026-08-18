@@ -142,8 +142,8 @@ const quicklinks = [
   },
   {
     id: uuid(),
-    title: 'Skúšky - Rozálske hody 2026',
-    href: '/trainings/reharsal_rozalskeHody',
+    title: 'Skúšky pred vystúpeniami',
+    href: '/trainings/reharsal',
   },
 
   // {
