@@ -84,8 +84,8 @@ const trainingsNavData = [
   },
   {
     id: uuid(),
-    name: 'Skúšky - Rozálske hody 2026',
-    url: '/trainings/reharsal_rozalskeHody',
+    name: 'Skúšky pred vystúpeniami',
+    url: '/trainings/reharsal',
   },
   {
     id: uuid(),

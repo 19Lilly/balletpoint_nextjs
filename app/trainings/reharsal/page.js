@@ -35,7 +35,7 @@ const reharsal = () => {
         <p>podľa rozvrhu všetci žiaci</p>
       </div>
       <div>
-        <p>Sobota - 5.9.2026 :</p>
+        <p>Sobota - 5.9.2026 - Rozálske hody:</p>
         <p>
           <span className='font-bold'>Nástup žiakov: </span> 13:00
         </p>
@@ -44,7 +44,7 @@ const reharsal = () => {
         </p>
       </div>
       <div>
-        <p>Nedeľa - 6.9.2026 :</p>
+        <p>Nedeľa - 6.9.2026 - Vodnícke slávnosti:</p>
         <p>
           <span className='font-bold'>Nástup žiakov: </span> upresníme
         </p>
