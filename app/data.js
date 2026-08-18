@@ -354,7 +354,7 @@ const galleryData = [
 const eventsData = [
   {
     id: uuid(),
-    date: '26.september 2025',
+    date: '26.september 2026',
     time: '16:30',
     title: 'Karloveské hody 2026',
     place: 'Park SNP - Líščie údolie, Karlova ves',
@@ -367,7 +367,7 @@ const eventsData = [
   },
   {
     id: uuid(),
-    date: '6.september 2025',
+    date: '6.september 2026',
     time: '14:30',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
