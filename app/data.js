@@ -368,7 +368,7 @@ const eventsData = [
   {
     id: uuid(),
     date: '6.september 2026',
-    time: '14:30',
+    time: '15:15',
     title: 'Festival vodníkov',
     place: 'Vodárenská záhrada, Karlova ves',
     url: 'https://www.folklorfest.sk/20806-festival-vodnikov-2026-karlova-ves/',
