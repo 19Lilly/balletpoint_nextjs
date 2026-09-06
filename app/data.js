@@ -177,7 +177,7 @@ const groupsData = [
   {
     id: uuid(),
     name: 'Classic 4',
-    age: '9-13 rokov',
+    age: '9-13+ rokov',
   },
 ];
 
@@ -388,7 +388,7 @@ const eventsData = [
     urlGallery: '/gallery/RozalskeHody2026',
     img: '/images/rozalske-hody-2026-lamac.webp',
     participate: ['Classic1, Classic 2, Classic 3, Classic 4'],
-    active: true,
+    active: false,
     targetBlank: true,
   },
   {
