@@ -46,10 +46,13 @@ const reharsal = () => {
       <div>
         <p>Nedeľa - 6.9.2026 - Vodnícke slávnosti:</p>
         <p>
-          <span className='font-bold'>Nástup žiakov: </span> upresníme
+          <span className='font-bold'>Nástup žiakov: </span> 12:30
         </p>
         <p>
-          <span className='font-bold'>Vystúpenie:</span> 14:30
+          <span className='font-bold'>Príchod Vodníka Ferka:</span> 14:30
+        </p>
+        <p>
+          <span className='font-bold'>Vystúpenie :</span> 15:15 - Vodárenská záhrada
         </p>
       </div>
     </div>

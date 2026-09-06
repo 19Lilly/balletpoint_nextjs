@@ -23,11 +23,15 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-6 text-lg text-left md:text-3xl'>
-              <p>Začiatok školského roku 2026/2027 v Balletpointe</p>
+            <div className='my-4 space-y-6 text-base text-left md:text-3xl'>
+              
+              <ul>
+                <p className='mb-4'>Začiatok školského roku 2026/2027 v Balletpointe:</p>
+                <li>P.Biskupice - október 2026</li>
+                <li>Lamač - 1.9.2026</li>
+                </ul> 
 
-              <p>Skúšky terajších žiakov začnú v týždni od 1.9.2026</p>
-              <p>Skúšobné hodiny nových žiakov: </p>
+              <p>Skúšobné hodiny nových žiakov - Lamač: </p>
 
               <ul className='my-4'>
                 <li>C1+C2: 1.9.2026, 4.9.2026</li>
@@ -44,6 +48,7 @@ const PopUp = () => {
                 </a>
               </>
             </div>
+           
           </div>
         </div>
       )}
