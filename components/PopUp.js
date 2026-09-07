@@ -23,9 +23,9 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-6 text-base text-left md:text-3xl'>
+            <div className='my-4 space-y-6 text-base  text-center md:text-3xl'>
               
-              <ul>
+              {/* <ul>
                 <p className='mb-4'>Začiatok školského roku 2026/2027 v Balletpointe:</p>
                 <li>P.Biskupice - október 2026</li>
                 <li>Lamač - 1.9.2026</li>
@@ -46,7 +46,10 @@ const PopUp = () => {
                 >
                   info@balletpoint.sk
                 </a>
-              </>
+              </> */}
+             
+              <p>Dňa 8.9.2026 sú všetky hodiny Ballet pointu Lamač zrušené. </p> 
+              <p> Vyučovanie bude pokračovať v stredu 9.9.2026</p>
             </div>
            
           </div>

@@ -375,7 +375,7 @@ const eventsData = [
     urlGallery: '/gallery/FestivalVodnikov',
     img: '/images/festival_vodnikov_09_2026.jpg',
     participate: ['Classic 4'],
-    active: true,
+    active: false,
     targetBlank: true,
   },
   {
