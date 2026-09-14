@@ -48,8 +48,8 @@ const PopUp = () => {
                 </a>
               </> */}
              
-              <p>Dňa 8.9.2026 sú všetky hodiny Ballet pointu Lamač zrušené. </p> 
-              <p> Vyučovanie bude pokračovať v stredu 9.9.2026</p>
+              <p>Dňa 15.9.2026 sú všetky hodiny Ballet pointu Lamač zrušené. </p> 
+              <p> Vyučovanie bude pokračovať v stredu 16.9.2026</p>
             </div>
            
           </div>
