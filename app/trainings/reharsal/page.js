@@ -1,17 +1,18 @@
 import React from 'react';
-import MobileTimeTable from '@/components/MobileTimeTable';
-import DesktopTimeTable from '@/components/DesktopTimeTable';
+import Image from 'next/image';
+
+
 
 export const metadata = {
-  title: 'Rozvrh hodín',
+  title: 'Skúšky pred vystúpením',
 };
 
 const reharsal = () => {
   return (
     <div className='main-container'>
-      <h1>Skúšky - Rozálske hody 2026 a Vodnícke slávnosti</h1>
+      <h1>Skúšky - Karloveské hody hody 2026</h1>
       <div>
-        <p>Utorok - 1.9.2026 :</p>
+        <p>Utorok - 22.9.2026 :</p>
         <p>
           <span className='font-bold'>C1+C2:</span> 15:30-16:45
         </p>
@@ -21,9 +22,9 @@ const reharsal = () => {
         <p>všetci žiaci</p>
       </div>
       <div>
-        <p>Streda - 2.9.2026 :</p>
+        <p>Streda - 23.9.2026 :</p>
         <p>
-          <span className='font-bold'>C1+C2:</span> 15:30-16:30
+          <span className='font-bold'>C1:</span> podľa rozvrhu
         </p>
         <p>
           <span className='font-bold'>C3+C4:</span> 16:30-17:30
@@ -31,28 +32,19 @@ const reharsal = () => {
         <p>všetci žiaci</p>
       </div>
       <div>
-        <p>Piatok - 4.9.2026 :</p>
+        <p>Piatok - 25.9.2026 :</p>
         <p>podľa rozvrhu všetci žiaci</p>
       </div>
       <div>
-        <p>Sobota - 5.9.2026 - Rozálske hody:</p>
+        <p>Sobota - 26.9.2026 - Karloveské hody:</p>
         <p>
-          <span className='font-bold'>Nástup žiakov: </span> 13:00
+          <span className='font-bold'>Nástup žiakov: </span> 15:00
         </p>
+        <p>Stretnutie pri rampe od Iuventy </p>
+        <img className='py-4' src='/images/mapa_aral_hody_KV.jpeg' />
+
         <p>
-          <span className='font-bold'>Vystúpenie:</span> 14:40-15:00{' '}
-        </p>
-      </div>
-      <div>
-        <p>Nedeľa - 6.9.2026 - Vodnícke slávnosti:</p>
-        <p>
-          <span className='font-bold'>Nástup žiakov: </span> 12:30
-        </p>
-        <p>
-          <span className='font-bold'>Príchod Vodníka Ferka:</span> 14:30
-        </p>
-        <p>
-          <span className='font-bold'>Vystúpenie :</span> 15:15 - Vodárenská záhrada
+          <span className='font-bold'>Vystúpenie:</span> 16:30{' '}
         </p>
       </div>
     </div>
