@@ -16,7 +16,19 @@ const Events = () => {
       </p>
 
       {eventsData.map(
-        ({ id, date, time, title, place, url, img, participate, active, urlGallery, targetBlank }) => {
+        ({
+          id,
+          date,
+          time,
+          title,
+          place,
+          url,
+          img,
+          participate,
+          active,
+          urlGallery,
+          targetBlank,
+        }) => {
           return (
             <div
               key={id}
@@ -58,7 +70,7 @@ const Events = () => {
               </div>
             </div>
           );
-        }
+        },
       )}
     </div>
   );

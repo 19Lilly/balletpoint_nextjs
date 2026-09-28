@@ -1,5 +1,6 @@
 import { v4 as uuid } from 'uuid';
 import OrganizationInfo from '@/components/OrganizationInfo';
+import { FaBullseye } from 'react-icons/fa';
 
 const navigation = [
   {
@@ -362,7 +363,8 @@ const eventsData = [
     urlGallery: '/gallery/KarloveskeHody2026',
     img: '/images/KV_hody_2026.png',
     participate: ['Classic 3, Classic 4'],
-    active: true,
+    active: false,
+    isGalleryOn: false,
     targetBlank: true,
   },
   {
@@ -376,6 +378,7 @@ const eventsData = [
     img: '/images/festival_vodnikov_09_2026.jpg',
     participate: ['Classic 4'],
     active: false,
+    isGalleryOn: false,
     targetBlank: true,
   },
   {
@@ -389,6 +392,7 @@ const eventsData = [
     img: '/images/rozalske-hody-2026-lamac.webp',
     participate: ['Classic1, Classic 2, Classic 3, Classic 4'],
     active: false,
+    isGalleryOn: false,
     targetBlank: true,
   },
   {
@@ -402,6 +406,7 @@ const eventsData = [
     img: '/images/koncert_ziakov_jun2026.jpg',
     participate: ['MČ Lamač, MČ Podunajské Biskupice'],
     active: false,
+    isGalleryOn: false,
     targetBlank: false,
   },
   {
@@ -415,6 +420,7 @@ const eventsData = [
     img: '/images/dobrocin_podunajskeBiskupice.JPG',
     participate: ['Classic 1, Classic 2'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
   {
@@ -428,6 +434,7 @@ const eventsData = [
     img: '/images/BalletPointXmasConcert2025.jpg',
     participate: ['Classic 1, Classic 2, Classic 3, Classic 4'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
   {
@@ -441,6 +448,7 @@ const eventsData = [
     img: '/images/festival_vodnikov_09_2025.png',
     participate: ['Classic 3'],
     active: false,
+    isGalleryOn: false,
     targetBlank: false,
   },
   {
@@ -454,6 +462,7 @@ const eventsData = [
     img: '/images/rozalske-hody-2025.jpg',
     participate: ['Classic 2, Classic 3'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
   {
@@ -467,6 +476,7 @@ const eventsData = [
     img: '/images/koncert_ziakov_jun2025.jpg',
     participate: ['MČ Podunajské Biskupice, MČ Lamač'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
   {
@@ -480,6 +490,7 @@ const eventsData = [
     img: '/images/koncert_ziakov_marec2025.jpg',
     participate: ['MČ Podunajské Biskupice, MČ Lamač'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
 
@@ -494,6 +505,7 @@ const eventsData = [
     img: '/images/rozalske-hody-2024.webp',
     participate: ['Classic 1, Classic 2, Classic 3'],
     active: false,
+    isGalleryOn: true,
     targetBlank: false,
   },
 ];

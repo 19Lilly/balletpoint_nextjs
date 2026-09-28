@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import Logo from '/public/images/Ballet point.png';
+import Poster from '/public/images/balletClass_adults.jpeg';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -23,35 +24,9 @@ const PopUp = () => {
 
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='my-4 space-y-6 text-base  text-center md:text-3xl'>
-              
-              {/* <ul>
-                <p className='mb-4'>Začiatok školského roku 2026/2027 v Balletpointe:</p>
-                <li>P.Biskupice - október 2026</li>
-                <li>Lamač - 1.9.2026</li>
-                </ul> 
-
-              <p>Skúšobné hodiny nových žiakov - Lamač: </p>
-
-              <ul className='my-4'>
-                <li>C1+C2: 1.9.2026, 4.9.2026</li>
-                <li>C1: 2.9.2026: 15:30-16:30</li>
-                <li>C3+C4: 8.9.2026, 11.9.2026</li>
-              </ul>
-              <>
-                <p>Prihlasovanie mailom:</p>
-                <a
-                  href='mailto:info@balletpoint.sk'
-                  className='underline underline-offset-2 hover:text-[#cca300]'
-                >
-                  info@balletpoint.sk
-                </a>
-              </> */}
-             
-              <p>Dňa 15.9.2026 sú všetky hodiny Ballet pointu Lamač zrušené. </p> 
-              <p> Vyučovanie bude pokračovať v stredu 16.9.2026</p>
+            <div className='text-center md:text-3xl'>
+              <Image src={Poster} />
             </div>
-           
           </div>
         </div>
       )}
