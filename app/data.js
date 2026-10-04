@@ -83,15 +83,20 @@ const trainingsNavData = [
     name: 'Rozvrh hodín',
     url: '/trainings/timeSchedule',
   },
-  {
-    id: uuid(),
-    name: 'Skúšky pred vystúpeniami',
-    url: '/trainings/reharsal',
-  },
+  // {
+  //   id: uuid(),
+  //   name: 'Skúšky pred vystúpeniami',
+  //   url: '/trainings/reharsal',
+  // },
   {
     id: uuid(),
     name: 'Skúšobné hodiny ',
     url: '/trainings/testClasses',
+  },
+  {
+    id: uuid(),
+    name: 'Ballet Barre - dospelí ',
+    url: '/trainings/balletBarre',
   },
 ];
 
@@ -131,21 +136,22 @@ const quicklinks = [
     href: '/registration',
   },
 
-  // {
-  //   id: uuid(),
-  //   title: 'Galéria',
-  //   href: '/gallery',
-  // },
+  {
+    id: uuid(),
+    title: 'Galéria',
+    href: '/gallery',
+  },
   {
     id: uuid(),
     title: 'Skušobné hodiny',
     href: '/trainings/testClasses',
   },
-  {
-    id: uuid(),
-    title: 'Skúšky pred vystúpeniami',
-    href: '/trainings/reharsal',
-  },
+
+  // {
+  //   id: uuid(),
+  //   title: 'Skúšky pred vystúpeniami',
+  //   href: '/trainings/reharsal',
+  // },
 
   // {
   //   id: uuid(),

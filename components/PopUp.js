@@ -27,6 +27,15 @@ const PopUp = () => {
             <div className='text-center md:text-3xl'>
               <Image src={Poster} />
             </div>
+            <div>
+              <a
+                href='/trainings/balletBarre'
+                className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-[#cca300] hover:border-[#cca300]'
+              >
+                Viac info
+                <FaArrowRight />
+              </a>
+            </div>
           </div>
         </div>
       )}
