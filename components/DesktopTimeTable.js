@@ -5,12 +5,6 @@ const DesktopTimeTable = ({ className }) => {
     <div
       className={`${className} md:grid-cols-[auto_1fr_1fr_1fr_1fr_1fr] divide-y divide-x border-b border-r text-center`}
     >
-      <div className='p-2'>deň/čas</div>
-      <div className='p-2'>13:45-15:00</div>
-      <div className='p-2'>15:00-16:15</div>
-      <div className='p-2'>15:30-16:45</div>
-      <div className='p-2'>16:50-18:05</div>
-      <div className='p-2'>18:10-19:25</div>
       <div className='p-2  font-bold'>Po</div>
       <div className='p-2'></div>
       <div className='p-2'></div>
@@ -19,19 +13,24 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2 flex flex-col items-center justify-center '>
         <p className='font-bold'>Ut</p>
-        <p>Lamač</p>
       </div>
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-gradient-to-b from-yellow-400 to-fuchsia-600 text-white  flex flex-col items-center justify-center'>
+        <p>15:30 - 16:45</p>
+        <p>Lamač</p>
         <p>Classic 1 + Classic 2</p>
-        <p>Klasický tanec + Gymnastika</p>
+        <p className='text-sm'>Klasický tanec + Gymnastika</p>
       </div>
       <div className='p-2 bg-gradient-to-b from-blue-600 to-rose-600 text-white  flex flex-col items-center justify-center'>
+        <p>16:50 - 18:05</p>
+        <p>Lamač</p>
         <p>Classic 3 + Classic 4</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-gradient-to-b from-blue-600 to-rose-600 text-white  flex flex-col items-center justify-center'>
+        <p>18:10 - 19:25</p>
+        <p>Lamač</p>
         <p>Classic 3 + Classic 4</p>
         <p>Contemporary class</p>
       </div>
@@ -41,6 +40,7 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2 bg-fuchsia-600 text-white flex flex-col items-center justify-center '>
         <p>15:30-16:30</p>
+        <p>Lamač</p>
         <p>Classic 1</p>
         <p>Tanečná príprava</p>
       </div>
@@ -48,31 +48,47 @@ const DesktopTimeTable = ({ className }) => {
       <div className='p-2'></div>
       <div className='p-2 flex flex-col items-center '>
         <p className='font-bold'>Št</p>
-        <p>P. Biskupice</p>
       </div>
       <div className='p-2 bg-lime-600  text-white flex flex-col items-center '>
+        <p>13:45-15:00</p>
+        <p>P. Biskupice</p>
         <p>Classic 2</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2'></div>
       <div className='p-2'></div>
-      <div className='p-2'></div>
-      <div className='p-2'></div>
+      <div className='p-2 bg-indigo-400 text-white'>
+        <p>17:30-18:25</p>
+        <p>Lamač</p>
+        <p className='text-sm'>Technická príprava - Gymnastika</p>
+        <p>súťažné tímy</p>
+      </div>
+      <div className='p-2 bg-teal-500 text-white'>
+        <p>18:30-19:25</p>
+        <p>Lamač</p>
+        <p>Ballet barre</p>
+        <p>Dospelí</p>
+      </div>
       <div className='p-2 flex flex-col items-center '>
         <p className='font-bold'>Pia</p>
-        <p>Lamač</p>
       </div>
       <div className='p-2'></div>
       <div className='p-2'></div>
       <div className='p-2 bg-yellow-400 text-white  flex flex-col items-center'>
+        <p>15:30 - 16:45</p>
+        <p>Lamač</p>
         <p>Classic 2</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-blue-600 text-white  flex flex-col items-center'>
+        <p>16:50 - 18:05</p>
+        <p>Lamač</p>
         <p>Classic 3</p>
         <p>Klasický tanec</p>
       </div>
       <div className='p-2 bg-rose-600 text-white  flex flex-col items-center'>
+        <p>18:10 - 19:25</p>
+        <p>Lamač</p>
         <p>Classic 4</p>
         <p>Klasický tanec</p>
       </div>
