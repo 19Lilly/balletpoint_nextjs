@@ -22,22 +22,14 @@ const PopUp = () => {
               <IoClose />
             </button>
 
+            
             <Image src={Logo} className='size-[150px] ' />
 
-            <div className='text-center md:text-3xl'>
-              <Image src={Poster} />
-            </div>
-            <div>
-              <a
-                href='/trainings/balletBarre'
-                className=' text-black border border-zinc-500 p-2 rounded-xl flex items-center gap-2 w-fit mt-3 hover:text-[#cca300] hover:border-[#cca300]'
-              >
-                Viac info
-                <FaArrowRight />
-              </a>
+            <p>Dňa 29.10. a 30.10.2026 sú všetky hodiny Ballet Pointu  z dôvodu jesenných prázdnin zrušené.</p>
+            <p>Vyučovanie bue pokračovať v utorok 3.11.2026</p>
             </div>
           </div>
-        </div>
+       
       )}
     </>
   );
